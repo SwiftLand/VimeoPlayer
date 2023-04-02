@@ -12,7 +12,6 @@
 		0462396829D98E460064F382 /* VimoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396729D98E460064F382 /* VimoPlayerUITests.swift */; };
 		0462396A29D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */; };
 		046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397729D98EB00064F382 /* ImageLoaderProxy.swift */; };
-		046239B929D98EB10064F382 /* OrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397829D98EB00064F382 /* OrientationManager.swift */; };
 		046239BA29D98EB10064F382 /* LoadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397929D98EB00064F382 /* LoadStatus.swift */; };
 		046239BB29D98EB10064F382 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */; };
 		046239BC29D98EB10064F382 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397C29D98EB00064F382 /* UIViewEx.swift */; };
@@ -85,7 +84,6 @@
 		0462396729D98E460064F382 /* VimoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerUITests.swift; sourceTree = "<group>"; };
 		0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0462397729D98EB00064F382 /* ImageLoaderProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderProxy.swift; sourceTree = "<group>"; };
-		0462397829D98EB00064F382 /* OrientationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationManager.swift; sourceTree = "<group>"; };
 		0462397929D98EB00064F382 /* LoadStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadStatus.swift; sourceTree = "<group>"; };
 		0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
 		0462397C29D98EB00064F382 /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 			children = (
 				0462397B29D98EB00064F382 /* Extensions */,
 				0462397729D98EB00064F382 /* ImageLoaderProxy.swift */,
-				0462397829D98EB00064F382 /* OrientationManager.swift */,
 				0462397929D98EB00064F382 /* LoadStatus.swift */,
 				0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */,
 				0462398629D98EB00064F382 /* Formatter.swift */,
@@ -377,7 +374,6 @@
 				C190116DA21A7541A51B04E0 /* Pods-VimoPlayerTests.debug.xcconfig */,
 				F80315442C7F10C4AC8A1905 /* Pods-VimoPlayerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -652,7 +648,6 @@
 				046239CF29D98EB10064F382 /* ApiRepository.swift in Sources */,
 				046239E029D98EB10064F382 /* ImageTextView.swift in Sources */,
 				046239C129D98EB10064F382 /* DataEx.swift in Sources */,
-				046239B929D98EB10064F382 /* OrientationManager.swift in Sources */,
 				046239DC29D98EB10064F382 /* ListCell.swift in Sources */,
 				046239C929D98EB10064F382 /* PlayerController.swift in Sources */,
 				046239E329D98EB10064F382 /* StringResource.swift in Sources */,

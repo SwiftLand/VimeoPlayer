@@ -18,9 +18,7 @@ protocol ListViewModeProtocol:BaseViewModel{
 }
 
 class ListViewModel:BaseViewModel,ListViewModeProtocol{
-    
-    lazy var apiRepository:ApiRepositoryProtocol = ApiRepository()
-    
+     
     var loadedDate:[VimoResponse.Data] = []{
         didSet{
             dataRelay.accept(loadedDate)
@@ -38,15 +36,13 @@ class ListViewModel:BaseViewModel,ListViewModeProtocol{
        
         if request.page == 1 {
             loadedDate = []
-//            dataRelay.accept([])
         }
         
         statusRelay.accept(.loading)
-        apiRepository.search(for: request)
+        ApiRepository().search(for: request)
             .observe(on: MainScheduler.instance).subscribe(onNext: {[weak self] vimoResponse in
                 self?.statusRelay.accept(.fetched)
                 self?.loadedDate.append(contentsOf: vimoResponse.data)
-//                self?.dataRelay.accept(loadedDate)
             },onError: {[weak self] error in
                 print(error)
                 self?.statusRelay.accept(.error(error:error))

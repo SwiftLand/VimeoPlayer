@@ -17,9 +17,7 @@ protocol DetailViewModelProtocol:BaseViewModel{
     func loadVideoConfig()
 }
 class DetailViewModel:BaseViewModel,DetailViewModelProtocol{
-    
-    lazy var apiRepository:ApiRepositoryProtocol = ApiRepository()
-    
+
     var data:VimoResponse.Data
     var videoConfig: PublishRelay<VimoVideoConfig> = .init()
     var status: PublishRelay<LoadStatus> = .init()

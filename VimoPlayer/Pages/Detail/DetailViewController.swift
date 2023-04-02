@@ -125,18 +125,14 @@ class DetailViewController:UIViewController{
         navigationController?.setNavigationBarHidden(isExpand, animated: true)
         
         NSLayoutConstraint.deactivate(activePlayerViewConstraints)
+        
         if isExpand{
             activePlayerViewConstraints = [
-                playerView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-                playerView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+                playerView.topAnchor.constraint(equalTo: view.topAnchor),
                 playerView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
                 playerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
                 playerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             ]
-            
-            if !OrientationManager.shared.isLandscape{
-                OrientationManager.shared.set(orientation: .landscape)
-            }
             
         }else{
             activePlayerViewConstraints = [
@@ -146,17 +142,6 @@ class DetailViewController:UIViewController{
                 playerView.trailingAnchor.constraint(equalTo: playerViewParent.trailingAnchor),
             ]
             
-            if !OrientationManager.shared.isLandscape{
-                OrientationManager.shared.set(orientation: .portrait)
-            }
-            
-            
-            let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene
-            windowScene?.requestGeometryUpdate(.iOS(interfaceOrientations: .portrait)){
-                error in
-                print(error)
-            }
-            navigationController?.topViewController?.setNeedsUpdateOfSupportedInterfaceOrientations()
         }
         
         NSLayoutConstraint.activate(activePlayerViewConstraints)

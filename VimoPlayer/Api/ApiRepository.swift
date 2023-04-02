@@ -15,7 +15,7 @@ protocol ApiRepositoryProtocol{
     func getVideoconfig(for id:String)->Observable<VimoVideoConfig>
 }
 
-class ApiRepository:ApiRepositoryProtocol{
+struct ApiRepository:ApiRepositoryProtocol{
     
     var session:URLSession = URLSession.shared
 
