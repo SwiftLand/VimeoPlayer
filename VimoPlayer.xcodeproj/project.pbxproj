@@ -7,15 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0462394729D98E450064F382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462394629D98E450064F382 /* AppDelegate.swift */; };
-		0462394929D98E450064F382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462394829D98E450064F382 /* SceneDelegate.swift */; };
-		0462394B29D98E450064F382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462394A29D98E450064F382 /* ViewController.swift */; };
-		0462394E29D98E450064F382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0462394C29D98E450064F382 /* Main.storyboard */; };
 		0462395029D98E460064F382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0462394F29D98E460064F382 /* Assets.xcassets */; };
-		0462395329D98E460064F382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0462395129D98E460064F382 /* LaunchScreen.storyboard */; };
 		0462395E29D98E460064F382 /* VimoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462395D29D98E460064F382 /* VimoPlayerTests.swift */; };
 		0462396829D98E460064F382 /* VimoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396729D98E460064F382 /* VimoPlayerUITests.swift */; };
 		0462396A29D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */; };
+		046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397729D98EB00064F382 /* ImageLoaderProxy.swift */; };
+		046239B929D98EB10064F382 /* OrientationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397829D98EB00064F382 /* OrientationManager.swift */; };
+		046239BA29D98EB10064F382 /* LoadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397929D98EB00064F382 /* LoadStatus.swift */; };
+		046239BB29D98EB10064F382 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */; };
+		046239BC29D98EB10064F382 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397C29D98EB00064F382 /* UIViewEx.swift */; };
+		046239BD29D98EB10064F382 /* DoubleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397D29D98EB00064F382 /* DoubleEx.swift */; };
+		046239BE29D98EB10064F382 /* RxAvPlayerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397E29D98EB00064F382 /* RxAvPlayerEx.swift */; };
+		046239BF29D98EB10064F382 /* HTTPURLResponseEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397F29D98EB00064F382 /* HTTPURLResponseEx.swift */; };
+		046239C029D98EB10064F382 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398029D98EB00064F382 /* UIViewControllerEx.swift */; };
+		046239C129D98EB10064F382 /* DataEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398129D98EB00064F382 /* DataEx.swift */; };
+		046239C229D98EB10064F382 /* StroyboardEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398229D98EB00064F382 /* StroyboardEx.swift */; };
+		046239C329D98EB10064F382 /* UIInterfaceOrientationMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398329D98EB00064F382 /* UIInterfaceOrientationMask.swift */; };
+		046239C429D98EB10064F382 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398429D98EB00064F382 /* StringEx.swift */; };
+		046239C529D98EB10064F382 /* AVPlayerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398529D98EB00064F382 /* AVPlayerEx.swift */; };
+		046239C629D98EB10064F382 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398629D98EB00064F382 /* Formatter.swift */; };
+		046239C729D98EB10064F382 /* PlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398829D98EB00064F382 /* PlayerSlider.swift */; };
+		046239C829D98EB10064F382 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398929D98EB00064F382 /* PlayerView.swift */; };
+		046239C929D98EB10064F382 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398A29D98EB00064F382 /* PlayerController.swift */; };
+		046239CA29D98EB10064F382 /* AppSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398F29D98EB00064F382 /* AppSteps.swift */; };
+		046239CB29D98EB10064F382 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399029D98EB00064F382 /* AppFlow.swift */; };
+		046239CC29D98EB10064F382 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399129D98EB00064F382 /* AppStepper.swift */; };
+		046239CF29D98EB10064F382 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399829D98EB00064F382 /* ApiRepository.swift */; };
+		046239D029D98EB10064F382 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399929D98EB00064F382 /* ApiRequest.swift */; };
+		046239D129D98EB10064F382 /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399A29D98EB00064F382 /* ApiRoute.swift */; };
+		046239D229D98EB10064F382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399C29D98EB00064F382 /* AppDelegate.swift */; };
+		046239D329D98EB10064F382 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399D29D98EB00064F382 /* main.swift */; };
+		046239D429D98EB10064F382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399E29D98EB00064F382 /* SceneDelegate.swift */; };
+		046239D529D98EB10064F382 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A029D98EB10064F382 /* SearchRequest.swift */; };
+		046239D629D98EB10064F382 /* VimoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A129D98EB10064F382 /* VimoResponse.swift */; };
+		046239D729D98EB10064F382 /* VimoVideoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A229D98EB10064F382 /* VimoVideoConfig.swift */; };
+		046239D829D98EB10064F382 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A529D98EB10064F382 /* DetailViewController.swift */; };
+		046239D929D98EB10064F382 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A629D98EB10064F382 /* DetailViewModel.swift */; };
+		046239DA29D98EB10064F382 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A829D98EB10064F382 /* ListViewController.swift */; };
+		046239DB29D98EB10064F382 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A929D98EB10064F382 /* ListViewModel.swift */; };
+		046239DC29D98EB10064F382 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239AC29D98EB10064F382 /* ListCell.swift */; };
+		046239DD29D98EB10064F382 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046239AD29D98EB10064F382 /* ListCell.xib */; };
+		046239DE29D98EB10064F382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046239AF29D98EB10064F382 /* LaunchScreen.storyboard */; };
+		046239DF29D98EB10064F382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046239B129D98EB10064F382 /* Main.storyboard */; };
+		046239E029D98EB10064F382 /* ImageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B329D98EB10064F382 /* ImageTextView.swift */; };
+		046239E129D98EB10064F382 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B529D98EB10064F382 /* Constants.swift */; };
+		046239E229D98EB10064F382 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B629D98EB10064F382 /* ImageResource.swift */; };
+		046239E329D98EB10064F382 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B729D98EB10064F382 /* StringResource.swift */; };
+		2BA7520BB8F83F7AE425274D /* Pods_VimoPlayer_VimoPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E21AE4BEA70FC167548812 /* Pods_VimoPlayer_VimoPlayerUITests.framework */; };
+		BE22C22CA450E126D830C3E2 /* Pods_VimoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0D5659FB602F73A75233C7A /* Pods_VimoPlayer.framework */; };
+		EDE6EFA757C2C7D541956D1B /* Pods_VimoPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C52F9CC6315320932670E4 /* Pods_VimoPlayerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +77,64 @@
 
 /* Begin PBXFileReference section */
 		0462394329D98E450064F382 /* VimoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0462394629D98E450064F382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0462394829D98E450064F382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0462394A29D98E450064F382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0462394D29D98E450064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0462394F29D98E460064F382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0462395229D98E460064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0462395429D98E460064F382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0462395929D98E460064F382 /* VimoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0462395D29D98E460064F382 /* VimoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerTests.swift; sourceTree = "<group>"; };
 		0462396329D98E460064F382 /* VimoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0462396729D98E460064F382 /* VimoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerUITests.swift; sourceTree = "<group>"; };
 		0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0462397729D98EB00064F382 /* ImageLoaderProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderProxy.swift; sourceTree = "<group>"; };
+		0462397829D98EB00064F382 /* OrientationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrientationManager.swift; sourceTree = "<group>"; };
+		0462397929D98EB00064F382 /* LoadStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadStatus.swift; sourceTree = "<group>"; };
+		0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
+		0462397C29D98EB00064F382 /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		0462397D29D98EB00064F382 /* DoubleEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleEx.swift; sourceTree = "<group>"; };
+		0462397E29D98EB00064F382 /* RxAvPlayerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAvPlayerEx.swift; sourceTree = "<group>"; };
+		0462397F29D98EB00064F382 /* HTTPURLResponseEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseEx.swift; sourceTree = "<group>"; };
+		0462398029D98EB00064F382 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
+		0462398129D98EB00064F382 /* DataEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEx.swift; sourceTree = "<group>"; };
+		0462398229D98EB00064F382 /* StroyboardEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StroyboardEx.swift; sourceTree = "<group>"; };
+		0462398329D98EB00064F382 /* UIInterfaceOrientationMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIInterfaceOrientationMask.swift; sourceTree = "<group>"; };
+		0462398429D98EB00064F382 /* StringEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		0462398529D98EB00064F382 /* AVPlayerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerEx.swift; sourceTree = "<group>"; };
+		0462398629D98EB00064F382 /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		0462398829D98EB00064F382 /* PlayerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSlider.swift; sourceTree = "<group>"; };
+		0462398929D98EB00064F382 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		0462398A29D98EB00064F382 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
+		0462398F29D98EB00064F382 /* AppSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSteps.swift; sourceTree = "<group>"; };
+		0462399029D98EB00064F382 /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		0462399129D98EB00064F382 /* AppStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		0462399829D98EB00064F382 /* ApiRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
+		0462399929D98EB00064F382 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		0462399A29D98EB00064F382 /* ApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
+		0462399C29D98EB00064F382 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0462399D29D98EB00064F382 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0462399E29D98EB00064F382 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046239A029D98EB10064F382 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		046239A129D98EB10064F382 /* VimoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimoResponse.swift; sourceTree = "<group>"; };
+		046239A229D98EB10064F382 /* VimoVideoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimoVideoConfig.swift; sourceTree = "<group>"; };
+		046239A529D98EB10064F382 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		046239A629D98EB10064F382 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		046239A829D98EB10064F382 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		046239A929D98EB10064F382 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		046239AC29D98EB10064F382 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		046239AD29D98EB10064F382 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		046239B029D98EB10064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046239B229D98EB10064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046239B329D98EB10064F382 /* ImageTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextView.swift; sourceTree = "<group>"; };
+		046239B529D98EB10064F382 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		046239B629D98EB10064F382 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
+		046239B729D98EB10064F382 /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
+		51E21AE4BEA70FC167548812 /* Pods_VimoPlayer_VimoPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimoPlayer_VimoPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F009EF59DCC6EE025E842E9 /* Pods-VimoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimoPlayer.release.xcconfig"; path = "Target Support Files/Pods-VimoPlayer/Pods-VimoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		870FD740F7BFD0AEBE999CBE /* Pods-VimoPlayer-VimoPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimoPlayer-VimoPlayerUITests.debug.xcconfig"; path = "Target Support Files/Pods-VimoPlayer-VimoPlayerUITests/Pods-VimoPlayer-VimoPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B4DEC293086B92D8DECB236 /* Pods-VimoPlayer-VimoPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimoPlayer-VimoPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-VimoPlayer-VimoPlayerUITests/Pods-VimoPlayer-VimoPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0D5659FB602F73A75233C7A /* Pods_VimoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C190116DA21A7541A51B04E0 /* Pods-VimoPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimoPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-VimoPlayerTests/Pods-VimoPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D03D348A37FCA067A75E1CB7 /* Pods-VimoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-VimoPlayer/Pods-VimoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		F3C52F9CC6315320932670E4 /* Pods_VimoPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimoPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80315442C7F10C4AC8A1905 /* Pods-VimoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimoPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-VimoPlayerTests/Pods-VimoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE22C22CA450E126D830C3E2 /* Pods_VimoPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE6EFA757C2C7D541956D1B /* Pods_VimoPlayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA7520BB8F83F7AE425274D /* Pods_VimoPlayer_VimoPlayerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +172,8 @@
 				0462395C29D98E460064F382 /* VimoPlayerTests */,
 				0462396629D98E460064F382 /* VimoPlayerUITests */,
 				0462394429D98E450064F382 /* Products */,
+				2338BC9FBB5080DCD99C9489 /* Pods */,
+				BECFD0FA12679B5C092297AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +190,15 @@
 		0462394529D98E450064F382 /* VimoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				0462394629D98E450064F382 /* AppDelegate.swift */,
-				0462394829D98E450064F382 /* SceneDelegate.swift */,
-				0462394A29D98E450064F382 /* ViewController.swift */,
-				0462394C29D98E450064F382 /* Main.storyboard */,
+				0462399729D98EB00064F382 /* Api */,
+				046239B429D98EB10064F382 /* AppConstant */,
+				0462399B29D98EB00064F382 /* Application */,
+				0462398E29D98EB00064F382 /* Flows */,
+				0462397629D98EB00064F382 /* Helper */,
+				0462399F29D98EB10064F382 /* Model */,
+				046239A329D98EB10064F382 /* Pages */,
+				046239AA29D98EB10064F382 /* Views */,
 				0462394F29D98E460064F382 /* Assets.xcassets */,
-				0462395129D98E460064F382 /* LaunchScreen.storyboard */,
 				0462395429D98E460064F382 /* Info.plist */,
 			);
 			path = VimoPlayer;
@@ -127,6 +221,176 @@
 			path = VimoPlayerUITests;
 			sourceTree = "<group>";
 		};
+		0462397629D98EB00064F382 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0462397B29D98EB00064F382 /* Extensions */,
+				0462397729D98EB00064F382 /* ImageLoaderProxy.swift */,
+				0462397829D98EB00064F382 /* OrientationManager.swift */,
+				0462397929D98EB00064F382 /* LoadStatus.swift */,
+				0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */,
+				0462398629D98EB00064F382 /* Formatter.swift */,
+				0462398729D98EB00064F382 /* Player */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0462397B29D98EB00064F382 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0462397C29D98EB00064F382 /* UIViewEx.swift */,
+				0462397D29D98EB00064F382 /* DoubleEx.swift */,
+				0462397E29D98EB00064F382 /* RxAvPlayerEx.swift */,
+				0462397F29D98EB00064F382 /* HTTPURLResponseEx.swift */,
+				0462398029D98EB00064F382 /* UIViewControllerEx.swift */,
+				0462398129D98EB00064F382 /* DataEx.swift */,
+				0462398229D98EB00064F382 /* StroyboardEx.swift */,
+				0462398329D98EB00064F382 /* UIInterfaceOrientationMask.swift */,
+				0462398429D98EB00064F382 /* StringEx.swift */,
+				0462398529D98EB00064F382 /* AVPlayerEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0462398729D98EB00064F382 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				0462398829D98EB00064F382 /* PlayerSlider.swift */,
+				0462398929D98EB00064F382 /* PlayerView.swift */,
+				0462398A29D98EB00064F382 /* PlayerController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		0462398E29D98EB00064F382 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				0462398F29D98EB00064F382 /* AppSteps.swift */,
+				0462399029D98EB00064F382 /* AppFlow.swift */,
+				0462399129D98EB00064F382 /* AppStepper.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		0462399729D98EB00064F382 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				0462399829D98EB00064F382 /* ApiRepository.swift */,
+				0462399929D98EB00064F382 /* ApiRequest.swift */,
+				0462399A29D98EB00064F382 /* ApiRoute.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		0462399B29D98EB00064F382 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0462399C29D98EB00064F382 /* AppDelegate.swift */,
+				0462399D29D98EB00064F382 /* main.swift */,
+				0462399E29D98EB00064F382 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0462399F29D98EB10064F382 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046239A029D98EB10064F382 /* SearchRequest.swift */,
+				046239A129D98EB10064F382 /* VimoResponse.swift */,
+				046239A229D98EB10064F382 /* VimoVideoConfig.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046239A329D98EB10064F382 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				046239A429D98EB10064F382 /* Detail */,
+				046239A729D98EB10064F382 /* List */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		046239A429D98EB10064F382 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				046239A529D98EB10064F382 /* DetailViewController.swift */,
+				046239A629D98EB10064F382 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		046239A729D98EB10064F382 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				046239A829D98EB10064F382 /* ListViewController.swift */,
+				046239A929D98EB10064F382 /* ListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		046239AA29D98EB10064F382 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				046239AB29D98EB10064F382 /* Cell */,
+				046239AE29D98EB10064F382 /* Stroyboards */,
+				046239B329D98EB10064F382 /* ImageTextView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		046239AB29D98EB10064F382 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				046239AC29D98EB10064F382 /* ListCell.swift */,
+				046239AD29D98EB10064F382 /* ListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		046239AE29D98EB10064F382 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+				046239AF29D98EB10064F382 /* LaunchScreen.storyboard */,
+				046239B129D98EB10064F382 /* Main.storyboard */,
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		046239B429D98EB10064F382 /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				046239B529D98EB10064F382 /* Constants.swift */,
+				046239B629D98EB10064F382 /* ImageResource.swift */,
+				046239B729D98EB10064F382 /* StringResource.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+		2338BC9FBB5080DCD99C9489 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D03D348A37FCA067A75E1CB7 /* Pods-VimoPlayer.debug.xcconfig */,
+				6F009EF59DCC6EE025E842E9 /* Pods-VimoPlayer.release.xcconfig */,
+				870FD740F7BFD0AEBE999CBE /* Pods-VimoPlayer-VimoPlayerUITests.debug.xcconfig */,
+				8B4DEC293086B92D8DECB236 /* Pods-VimoPlayer-VimoPlayerUITests.release.xcconfig */,
+				C190116DA21A7541A51B04E0 /* Pods-VimoPlayerTests.debug.xcconfig */,
+				F80315442C7F10C4AC8A1905 /* Pods-VimoPlayerTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BECFD0FA12679B5C092297AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0D5659FB602F73A75233C7A /* Pods_VimoPlayer.framework */,
+				51E21AE4BEA70FC167548812 /* Pods_VimoPlayer_VimoPlayerUITests.framework */,
+				F3C52F9CC6315320932670E4 /* Pods_VimoPlayerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +398,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462396D29D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayer" */;
 			buildPhases = (
+				D3938C94D36363E4940D49C5 /* [CP] Check Pods Manifest.lock */,
 				0462393F29D98E450064F382 /* Sources */,
 				0462394029D98E450064F382 /* Frameworks */,
 				0462394129D98E450064F382 /* Resources */,
+				E143B9F099718C51388DE6C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +417,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462397029D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayerTests" */;
 			buildPhases = (
+				C9629AD4620163320A21A749 /* [CP] Check Pods Manifest.lock */,
 				0462395529D98E460064F382 /* Sources */,
 				0462395629D98E460064F382 /* Frameworks */,
 				0462395729D98E460064F382 /* Resources */,
+				BC2685989CC6DA48D2A34124 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +437,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462397329D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayerUITests" */;
 			buildPhases = (
+				AC5011C3136A8458FEB4F099 /* [CP] Check Pods Manifest.lock */,
 				0462395F29D98E460064F382 /* Sources */,
 				0462396029D98E460064F382 /* Frameworks */,
 				0462396129D98E460064F382 /* Resources */,
+				CEF52A12C2E436B5F6AB5BD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +501,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0462395329D98E460064F382 /* LaunchScreen.storyboard in Resources */,
+				046239DD29D98EB10064F382 /* ListCell.xib in Resources */,
+				046239DF29D98EB10064F382 /* Main.storyboard in Resources */,
+				046239DE29D98EB10064F382 /* LaunchScreen.storyboard in Resources */,
 				0462395029D98E460064F382 /* Assets.xcassets in Resources */,
-				0462394E29D98E450064F382 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +524,170 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AC5011C3136A8458FEB4F099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VimoPlayer-VimoPlayerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2685989CC6DA48D2A34124 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VimoPlayerTests/Pods-VimoPlayerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VimoPlayerTests/Pods-VimoPlayerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VimoPlayerTests/Pods-VimoPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9629AD4620163320A21A749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VimoPlayerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF52A12C2E436B5F6AB5BD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VimoPlayer-VimoPlayerUITests/Pods-VimoPlayer-VimoPlayerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VimoPlayer-VimoPlayerUITests/Pods-VimoPlayer-VimoPlayerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VimoPlayer-VimoPlayerUITests/Pods-VimoPlayer-VimoPlayerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3938C94D36363E4940D49C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VimoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E143B9F099718C51388DE6C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VimoPlayer/Pods-VimoPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VimoPlayer/Pods-VimoPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VimoPlayer/Pods-VimoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0462393F29D98E450064F382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0462394B29D98E450064F382 /* ViewController.swift in Sources */,
-				0462394729D98E450064F382 /* AppDelegate.swift in Sources */,
-				0462394929D98E450064F382 /* SceneDelegate.swift in Sources */,
+				046239CF29D98EB10064F382 /* ApiRepository.swift in Sources */,
+				046239E029D98EB10064F382 /* ImageTextView.swift in Sources */,
+				046239C129D98EB10064F382 /* DataEx.swift in Sources */,
+				046239B929D98EB10064F382 /* OrientationManager.swift in Sources */,
+				046239DC29D98EB10064F382 /* ListCell.swift in Sources */,
+				046239C929D98EB10064F382 /* PlayerController.swift in Sources */,
+				046239E329D98EB10064F382 /* StringResource.swift in Sources */,
+				046239BF29D98EB10064F382 /* HTTPURLResponseEx.swift in Sources */,
+				046239DA29D98EB10064F382 /* ListViewController.swift in Sources */,
+				046239BD29D98EB10064F382 /* DoubleEx.swift in Sources */,
+				046239D729D98EB10064F382 /* VimoVideoConfig.swift in Sources */,
+				046239C829D98EB10064F382 /* PlayerView.swift in Sources */,
+				046239C029D98EB10064F382 /* UIViewControllerEx.swift in Sources */,
+				046239BC29D98EB10064F382 /* UIViewEx.swift in Sources */,
+				046239C529D98EB10064F382 /* AVPlayerEx.swift in Sources */,
+				046239D129D98EB10064F382 /* ApiRoute.swift in Sources */,
+				046239D429D98EB10064F382 /* SceneDelegate.swift in Sources */,
+				046239D029D98EB10064F382 /* ApiRequest.swift in Sources */,
+				046239BA29D98EB10064F382 /* LoadStatus.swift in Sources */,
+				046239DB29D98EB10064F382 /* ListViewModel.swift in Sources */,
+				046239E229D98EB10064F382 /* ImageResource.swift in Sources */,
+				046239D929D98EB10064F382 /* DetailViewModel.swift in Sources */,
+				046239D229D98EB10064F382 /* AppDelegate.swift in Sources */,
+				046239D329D98EB10064F382 /* main.swift in Sources */,
+				046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */,
+				046239CC29D98EB10064F382 /* AppStepper.swift in Sources */,
+				046239D829D98EB10064F382 /* DetailViewController.swift in Sources */,
+				046239C329D98EB10064F382 /* UIInterfaceOrientationMask.swift in Sources */,
+				046239BB29D98EB10064F382 /* BaseViewModelProtocol.swift in Sources */,
+				046239CB29D98EB10064F382 /* AppFlow.swift in Sources */,
+				046239C229D98EB10064F382 /* StroyboardEx.swift in Sources */,
+				046239C629D98EB10064F382 /* Formatter.swift in Sources */,
+				046239CA29D98EB10064F382 /* AppSteps.swift in Sources */,
+				046239D629D98EB10064F382 /* VimoResponse.swift in Sources */,
+				046239C729D98EB10064F382 /* PlayerSlider.swift in Sources */,
+				046239D529D98EB10064F382 /* SearchRequest.swift in Sources */,
+				046239C429D98EB10064F382 /* StringEx.swift in Sources */,
+				046239E129D98EB10064F382 /* Constants.swift in Sources */,
+				046239BE29D98EB10064F382 /* RxAvPlayerEx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +724,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0462394C29D98E450064F382 /* Main.storyboard */ = {
+		046239AF29D98EB10064F382 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0462394D29D98E450064F382 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0462395129D98E460064F382 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0462395229D98E460064F382 /* Base */,
+				046239B029D98EB10064F382 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		046239B129D98EB10064F382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046239B229D98EB10064F382 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +859,7 @@
 		};
 		0462396E29D98E460064F382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03D348A37FCA067A75E1CB7 /* Pods-VimoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +887,7 @@
 		};
 		0462396F29D98E460064F382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F009EF59DCC6EE025E842E9 /* Pods-VimoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +915,7 @@
 		};
 		0462397129D98E460064F382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C190116DA21A7541A51B04E0 /* Pods-VimoPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +935,7 @@
 		};
 		0462397229D98E460064F382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80315442C7F10C4AC8A1905 /* Pods-VimoPlayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +955,7 @@
 		};
 		0462397429D98E460064F382 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 870FD740F7BFD0AEBE999CBE /* Pods-VimoPlayer-VimoPlayerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +973,7 @@
 		};
 		0462397529D98E460064F382 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4DEC293086B92D8DECB236 /* Pods-VimoPlayer-VimoPlayerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
