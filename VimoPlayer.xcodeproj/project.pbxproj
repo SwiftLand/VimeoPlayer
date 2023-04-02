@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0462394729D98E450064F382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462394629D98E450064F382 /* AppDelegate.swift */; };
+		0462394929D98E450064F382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462394829D98E450064F382 /* SceneDelegate.swift */; };
+		0462394B29D98E450064F382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462394A29D98E450064F382 /* ViewController.swift */; };
+		0462394E29D98E450064F382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0462394C29D98E450064F382 /* Main.storyboard */; };
+		0462395029D98E460064F382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0462394F29D98E460064F382 /* Assets.xcassets */; };
+		0462395329D98E460064F382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0462395129D98E460064F382 /* LaunchScreen.storyboard */; };
+		0462395E29D98E460064F382 /* VimoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462395D29D98E460064F382 /* VimoPlayerTests.swift */; };
+		0462396829D98E460064F382 /* VimoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396729D98E460064F382 /* VimoPlayerUITests.swift */; };
+		0462396A29D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0462395A29D98E460064F382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0462393B29D98E450064F382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0462394229D98E450064F382;
+			remoteInfo = VimoPlayer;
+		};
+		0462396429D98E460064F382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0462393B29D98E450064F382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0462394229D98E450064F382;
+			remoteInfo = VimoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0462394329D98E450064F382 /* VimoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0462394629D98E450064F382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0462394829D98E450064F382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0462394A29D98E450064F382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0462394D29D98E450064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0462394F29D98E460064F382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0462395229D98E460064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0462395429D98E460064F382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0462395929D98E460064F382 /* VimoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0462395D29D98E460064F382 /* VimoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerTests.swift; sourceTree = "<group>"; };
+		0462396329D98E460064F382 /* VimoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0462396729D98E460064F382 /* VimoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerUITests.swift; sourceTree = "<group>"; };
+		0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0462394029D98E450064F382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462395629D98E460064F382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462396029D98E460064F382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0462393A29D98E450064F382 = {
+			isa = PBXGroup;
+			children = (
+				0462394529D98E450064F382 /* VimoPlayer */,
+				0462395C29D98E460064F382 /* VimoPlayerTests */,
+				0462396629D98E460064F382 /* VimoPlayerUITests */,
+				0462394429D98E450064F382 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0462394429D98E450064F382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0462394329D98E450064F382 /* VimoPlayer.app */,
+				0462395929D98E460064F382 /* VimoPlayerTests.xctest */,
+				0462396329D98E460064F382 /* VimoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0462394529D98E450064F382 /* VimoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				0462394629D98E450064F382 /* AppDelegate.swift */,
+				0462394829D98E450064F382 /* SceneDelegate.swift */,
+				0462394A29D98E450064F382 /* ViewController.swift */,
+				0462394C29D98E450064F382 /* Main.storyboard */,
+				0462394F29D98E460064F382 /* Assets.xcassets */,
+				0462395129D98E460064F382 /* LaunchScreen.storyboard */,
+				0462395429D98E460064F382 /* Info.plist */,
+			);
+			path = VimoPlayer;
+			sourceTree = "<group>";
+		};
+		0462395C29D98E460064F382 /* VimoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0462395D29D98E460064F382 /* VimoPlayerTests.swift */,
+			);
+			path = VimoPlayerTests;
+			sourceTree = "<group>";
+		};
+		0462396629D98E460064F382 /* VimoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0462396729D98E460064F382 /* VimoPlayerUITests.swift */,
+				0462396929D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift */,
+			);
+			path = VimoPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0462394229D98E450064F382 /* VimoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462396D29D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayer" */;
+			buildPhases = (
+				0462393F29D98E450064F382 /* Sources */,
+				0462394029D98E450064F382 /* Frameworks */,
+				0462394129D98E450064F382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VimoPlayer;
+			productName = VimoPlayer;
+			productReference = 0462394329D98E450064F382 /* VimoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0462395829D98E460064F382 /* VimoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462397029D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayerTests" */;
+			buildPhases = (
+				0462395529D98E460064F382 /* Sources */,
+				0462395629D98E460064F382 /* Frameworks */,
+				0462395729D98E460064F382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0462395B29D98E460064F382 /* PBXTargetDependency */,
+			);
+			name = VimoPlayerTests;
+			productName = VimoPlayerTests;
+			productReference = 0462395929D98E460064F382 /* VimoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0462396229D98E460064F382 /* VimoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0462397329D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayerUITests" */;
+			buildPhases = (
+				0462395F29D98E460064F382 /* Sources */,
+				0462396029D98E460064F382 /* Frameworks */,
+				0462396129D98E460064F382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0462396529D98E460064F382 /* PBXTargetDependency */,
+			);
+			name = VimoPlayerUITests;
+			productName = VimoPlayerUITests;
+			productReference = 0462396329D98E460064F382 /* VimoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0462393B29D98E450064F382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					0462394229D98E450064F382 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					0462395829D98E460064F382 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0462394229D98E450064F382;
+					};
+					0462396229D98E460064F382 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 0462394229D98E450064F382;
+					};
+				};
+			};
+			buildConfigurationList = 0462393E29D98E450064F382 /* Build configuration list for PBXProject "VimoPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0462393A29D98E450064F382;
+			productRefGroup = 0462394429D98E450064F382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0462394229D98E450064F382 /* VimoPlayer */,
+				0462395829D98E460064F382 /* VimoPlayerTests */,
+				0462396229D98E460064F382 /* VimoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0462394129D98E450064F382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462395329D98E460064F382 /* LaunchScreen.storyboard in Resources */,
+				0462395029D98E460064F382 /* Assets.xcassets in Resources */,
+				0462394E29D98E450064F382 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462395729D98E460064F382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462396129D98E460064F382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0462393F29D98E450064F382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462394B29D98E450064F382 /* ViewController.swift in Sources */,
+				0462394729D98E450064F382 /* AppDelegate.swift in Sources */,
+				0462394929D98E450064F382 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462395529D98E460064F382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462395E29D98E460064F382 /* VimoPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0462395F29D98E460064F382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0462396A29D98E460064F382 /* VimoPlayerUITestsLaunchTests.swift in Sources */,
+				0462396829D98E460064F382 /* VimoPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0462395B29D98E460064F382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0462394229D98E450064F382 /* VimoPlayer */;
+			targetProxy = 0462395A29D98E460064F382 /* PBXContainerItemProxy */;
+		};
+		0462396529D98E460064F382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0462394229D98E450064F382 /* VimoPlayer */;
+			targetProxy = 0462396429D98E460064F382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0462394C29D98E450064F382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0462394D29D98E450064F382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0462395129D98E460064F382 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0462395229D98E460064F382 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0462396B29D98E460064F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0462396C29D98E460064F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0462396E29D98E460064F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VimoPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftLand.VimoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0462396F29D98E460064F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VimoPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftLand.VimoPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0462397129D98E460064F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftLand.VimoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimoPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VimoPlayer";
+			};
+			name = Debug;
+		};
+		0462397229D98E460064F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftLand.VimoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VimoPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VimoPlayer";
+			};
+			name = Release;
+		};
+		0462397429D98E460064F382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftLand.VimoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VimoPlayer;
+			};
+			name = Debug;
+		};
+		0462397529D98E460064F382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SwiftLand.VimoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VimoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0462393E29D98E450064F382 /* Build configuration list for PBXProject "VimoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462396B29D98E460064F382 /* Debug */,
+				0462396C29D98E460064F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0462396D29D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462396E29D98E460064F382 /* Debug */,
+				0462396F29D98E460064F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0462397029D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462397129D98E460064F382 /* Debug */,
+				0462397229D98E460064F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0462397329D98E460064F382 /* Build configuration list for PBXNativeTarget "VimoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0462397429D98E460064F382 /* Debug */,
+				0462397529D98E460064F382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0462393B29D98E450064F382 /* Project object */;
+}
