@@ -7,53 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042553DC29DB80A200F26A07 /* LoadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553A229DB80A100F26A07 /* LoadStatus.swift */; };
+		042553DD29DB80A200F26A07 /* DoubleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553A429DB80A100F26A07 /* DoubleEx.swift */; };
+		042553DE29DB80A200F26A07 /* ViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553A529DB80A100F26A07 /* ViewEx.swift */; };
+		042553DF29DB80A200F26A07 /* CMTimeEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553A729DB80A100F26A07 /* CMTimeEx.swift */; };
+		042553E029DB80A200F26A07 /* AVPlayerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553A829DB80A100F26A07 /* AVPlayerEx.swift */; };
+		042553E129DB80A200F26A07 /* AVPlayerItemEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553A929DB80A100F26A07 /* AVPlayerItemEx.swift */; };
+		042553E229DB80A200F26A07 /* HTTPURLResponseEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553AA29DB80A100F26A07 /* HTTPURLResponseEx.swift */; };
+		042553E329DB80A200F26A07 /* DataEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553AB29DB80A100F26A07 /* DataEx.swift */; };
+		042553E429DB80A200F26A07 /* UIInterfaceOrientationMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553AC29DB80A100F26A07 /* UIInterfaceOrientationMask.swift */; };
+		042553E529DB80A200F26A07 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553AD29DB80A100F26A07 /* StringEx.swift */; };
+		042553E629DB80A200F26A07 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553AE29DB80A100F26A07 /* Formatter.swift */; };
+		042553E729DB80A200F26A07 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553AF29DB80A100F26A07 /* Store.swift */; };
+		042553E829DB80A200F26A07 /* DeviceRotationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B029DB80A100F26A07 /* DeviceRotationViewModifier.swift */; };
+		042553E929DB80A200F26A07 /* NavigableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B229DB80A100F26A07 /* NavigableProtocol.swift */; };
+		042553EA29DB80A200F26A07 /* FlowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B329DB80A100F26A07 /* FlowViewModel.swift */; };
+		042553EB29DB80A200F26A07 /* FlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B429DB80A100F26A07 /* FlowView.swift */; };
+		042553EC29DB80A200F26A07 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B529DB80A100F26A07 /* Screen.swift */; };
+		042553ED29DB80A200F26A07 /* FlowAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B629DB80A100F26A07 /* FlowAction.swift */; };
+		042553EE29DB80A200F26A07 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B829DB80A100F26A07 /* ApiRepository.swift */; };
+		042553EF29DB80A200F26A07 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553B929DB80A100F26A07 /* ApiRequest.swift */; };
+		042553F029DB80A200F26A07 /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553BA29DB80A100F26A07 /* ApiRoute.swift */; };
+		042553F129DB80A200F26A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042553BC29DB80A100F26A07 /* LaunchScreen.storyboard */; };
+		042553F229DB80A200F26A07 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553BF29DB80A100F26A07 /* DetailView.swift */; };
+		042553F329DB80A200F26A07 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C029DB80A100F26A07 /* DetailViewModel.swift */; };
+		042553F429DB80A200F26A07 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C229DB80A100F26A07 /* ListView.swift */; };
+		042553F529DB80A200F26A07 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C329DB80A100F26A07 /* ListViewModel.swift */; };
+		042553F629DB80A200F26A07 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C429DB80A100F26A07 /* ListCellView.swift */; };
+		042553F729DB80A200F26A07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C629DB80A100F26A07 /* Constants.swift */; };
+		042553F829DB80A200F26A07 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C729DB80A100F26A07 /* ImageResource.swift */; };
+		042553F929DB80A200F26A07 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C829DB80A100F26A07 /* StringResource.swift */; };
+		042553FA29DB80A200F26A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553CA29DB80A100F26A07 /* AppDelegate.swift */; };
+		042553FB29DB80A200F26A07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553CB29DB80A100F26A07 /* SceneDelegate.swift */; };
+		042553FC29DB80A200F26A07 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553CD29DB80A100F26A07 /* InfoView.swift */; };
+		042553FD29DB80A200F26A07 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553CE29DB80A100F26A07 /* StatusView.swift */; };
+		042553FE29DB80A200F26A07 /* DequeueReusableAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D029DB80A100F26A07 /* DequeueReusableAsyncImage.swift */; };
+		042553FF29DB80A200F26A07 /* PlayerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D229DB80A100F26A07 /* PlayerUIView.swift */; };
+		0425540029DB80A200F26A07 /* PlayerSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D329DB80A100F26A07 /* PlayerSliderView.swift */; };
+		0425540129DB80A200F26A07 /* PlayerContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D429DB80A100F26A07 /* PlayerContainerView.swift */; };
+		0425540229DB80A200F26A07 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D529DB80A100F26A07 /* PlayerViewModel.swift */; };
+		0425540329DB80A200F26A07 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D629DB80A100F26A07 /* PlayerView.swift */; };
+		0425540429DB80A200F26A07 /* PlayerControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D729DB80A100F26A07 /* PlayerControllerView.swift */; };
+		0425540529DB80A200F26A07 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553D929DB80A200F26A07 /* SearchRequest.swift */; };
+		0425540629DB80A200F26A07 /* VimeoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553DA29DB80A200F26A07 /* VimeoResponse.swift */; };
+		0425540729DB80A200F26A07 /* VimeoVideoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553DB29DB80A200F26A07 /* VimeoVideoConfig.swift */; };
 		0462395029D98E460064F382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0462394F29D98E460064F382 /* Assets.xcassets */; };
 		0462395E29D98E460064F382 /* VimeoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462395D29D98E460064F382 /* VimeoPlayerTests.swift */; };
 		0462396829D98E460064F382 /* VimeoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396729D98E460064F382 /* VimeoPlayerUITests.swift */; };
 		0462396A29D98E460064F382 /* VimeoPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462396929D98E460064F382 /* VimeoPlayerUITestsLaunchTests.swift */; };
-		046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397729D98EB00064F382 /* ImageLoaderProxy.swift */; };
-		046239BA29D98EB10064F382 /* LoadStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397929D98EB00064F382 /* LoadStatus.swift */; };
-		046239BB29D98EB10064F382 /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */; };
-		046239BC29D98EB10064F382 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397C29D98EB00064F382 /* UIViewEx.swift */; };
-		046239BD29D98EB10064F382 /* DoubleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397D29D98EB00064F382 /* DoubleEx.swift */; };
-		046239BE29D98EB10064F382 /* RxAvPlayerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397E29D98EB00064F382 /* RxAvPlayerEx.swift */; };
-		046239BF29D98EB10064F382 /* HTTPURLResponseEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462397F29D98EB00064F382 /* HTTPURLResponseEx.swift */; };
-		046239C029D98EB10064F382 /* UIViewControllerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398029D98EB00064F382 /* UIViewControllerEx.swift */; };
-		046239C129D98EB10064F382 /* DataEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398129D98EB00064F382 /* DataEx.swift */; };
-		046239C229D98EB10064F382 /* StroyboardEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398229D98EB00064F382 /* StroyboardEx.swift */; };
-		046239C329D98EB10064F382 /* UIInterfaceOrientationMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398329D98EB00064F382 /* UIInterfaceOrientationMask.swift */; };
-		046239C429D98EB10064F382 /* StringEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398429D98EB00064F382 /* StringEx.swift */; };
-		046239C529D98EB10064F382 /* AVPlayerEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398529D98EB00064F382 /* AVPlayerEx.swift */; };
-		046239C629D98EB10064F382 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398629D98EB00064F382 /* Formatter.swift */; };
-		046239C729D98EB10064F382 /* PlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398829D98EB00064F382 /* PlayerSlider.swift */; };
-		046239C829D98EB10064F382 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398929D98EB00064F382 /* PlayerView.swift */; };
-		046239C929D98EB10064F382 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398A29D98EB00064F382 /* PlayerController.swift */; };
-		046239CA29D98EB10064F382 /* AppSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462398F29D98EB00064F382 /* AppSteps.swift */; };
-		046239CB29D98EB10064F382 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399029D98EB00064F382 /* AppFlow.swift */; };
-		046239CC29D98EB10064F382 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399129D98EB00064F382 /* AppStepper.swift */; };
-		046239CF29D98EB10064F382 /* ApiRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399829D98EB00064F382 /* ApiRepository.swift */; };
-		046239D029D98EB10064F382 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399929D98EB00064F382 /* ApiRequest.swift */; };
-		046239D129D98EB10064F382 /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399A29D98EB00064F382 /* ApiRoute.swift */; };
-		046239D229D98EB10064F382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399C29D98EB00064F382 /* AppDelegate.swift */; };
-		046239D429D98EB10064F382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399E29D98EB00064F382 /* SceneDelegate.swift */; };
-		046239D529D98EB10064F382 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A029D98EB10064F382 /* SearchRequest.swift */; };
-		046239D629D98EB10064F382 /* VimeoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A129D98EB10064F382 /* VimeoResponse.swift */; };
-		046239D729D98EB10064F382 /* VimeoVideoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A229D98EB10064F382 /* VimeoVideoConfig.swift */; };
-		046239D829D98EB10064F382 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A529D98EB10064F382 /* DetailViewController.swift */; };
-		046239D929D98EB10064F382 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A629D98EB10064F382 /* DetailViewModel.swift */; };
-		046239DA29D98EB10064F382 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A829D98EB10064F382 /* ListViewController.swift */; };
-		046239DB29D98EB10064F382 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A929D98EB10064F382 /* ListViewModel.swift */; };
-		046239DC29D98EB10064F382 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239AC29D98EB10064F382 /* ListCell.swift */; };
-		046239DD29D98EB10064F382 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 046239AD29D98EB10064F382 /* ListCell.xib */; };
-		046239DE29D98EB10064F382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046239AF29D98EB10064F382 /* LaunchScreen.storyboard */; };
-		046239DF29D98EB10064F382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046239B129D98EB10064F382 /* Main.storyboard */; };
-		046239E029D98EB10064F382 /* ImageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B329D98EB10064F382 /* ImageTextView.swift */; };
-		046239E129D98EB10064F382 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B529D98EB10064F382 /* Constants.swift */; };
-		046239E229D98EB10064F382 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B629D98EB10064F382 /* ImageResource.swift */; };
-		046239E329D98EB10064F382 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B729D98EB10064F382 /* StringResource.swift */; };
-		1B83CB6B0B64A06502D5D86F /* Pods_VimeoPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84EA4E649BE792ACE6844D1 /* Pods_VimeoPlayerTests.framework */; };
-		2389198A9E1709CCF5272630 /* Pods_VimeoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E939538B979159DAA1E6FE /* Pods_VimeoPlayer.framework */; };
-		A94C753DE075787FC2D93BA6 /* Pods_VimeoPlayer_VimeoPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693E8C8839DCACB98BA279C8 /* Pods_VimeoPlayer_VimeoPlayerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042553A229DB80A100F26A07 /* LoadStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadStatus.swift; sourceTree = "<group>"; };
+		042553A429DB80A100F26A07 /* DoubleEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleEx.swift; sourceTree = "<group>"; };
+		042553A529DB80A100F26A07 /* ViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEx.swift; sourceTree = "<group>"; };
+		042553A729DB80A100F26A07 /* CMTimeEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMTimeEx.swift; sourceTree = "<group>"; };
+		042553A829DB80A100F26A07 /* AVPlayerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerEx.swift; sourceTree = "<group>"; };
+		042553A929DB80A100F26A07 /* AVPlayerItemEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerItemEx.swift; sourceTree = "<group>"; };
+		042553AA29DB80A100F26A07 /* HTTPURLResponseEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseEx.swift; sourceTree = "<group>"; };
+		042553AB29DB80A100F26A07 /* DataEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEx.swift; sourceTree = "<group>"; };
+		042553AC29DB80A100F26A07 /* UIInterfaceOrientationMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIInterfaceOrientationMask.swift; sourceTree = "<group>"; };
+		042553AD29DB80A100F26A07 /* StringEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
+		042553AE29DB80A100F26A07 /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		042553AF29DB80A100F26A07 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		042553B029DB80A100F26A07 /* DeviceRotationViewModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRotationViewModifier.swift; sourceTree = "<group>"; };
+		042553B229DB80A100F26A07 /* NavigableProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigableProtocol.swift; sourceTree = "<group>"; };
+		042553B329DB80A100F26A07 /* FlowViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowViewModel.swift; sourceTree = "<group>"; };
+		042553B429DB80A100F26A07 /* FlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowView.swift; sourceTree = "<group>"; };
+		042553B529DB80A100F26A07 /* Screen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		042553B629DB80A100F26A07 /* FlowAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowAction.swift; sourceTree = "<group>"; };
+		042553B829DB80A100F26A07 /* ApiRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
+		042553B929DB80A100F26A07 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		042553BA29DB80A100F26A07 /* ApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
+		042553BD29DB80A100F26A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042553BF29DB80A100F26A07 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		042553C029DB80A100F26A07 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		042553C229DB80A100F26A07 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		042553C329DB80A100F26A07 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		042553C429DB80A100F26A07 /* ListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
+		042553C629DB80A100F26A07 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		042553C729DB80A100F26A07 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
+		042553C829DB80A100F26A07 /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
+		042553CA29DB80A100F26A07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042553CB29DB80A100F26A07 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		042553CD29DB80A100F26A07 /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		042553CE29DB80A100F26A07 /* StatusView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		042553D029DB80A100F26A07 /* DequeueReusableAsyncImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DequeueReusableAsyncImage.swift; sourceTree = "<group>"; };
+		042553D229DB80A100F26A07 /* PlayerUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerUIView.swift; sourceTree = "<group>"; };
+		042553D329DB80A100F26A07 /* PlayerSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSliderView.swift; sourceTree = "<group>"; };
+		042553D429DB80A100F26A07 /* PlayerContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerContainerView.swift; sourceTree = "<group>"; };
+		042553D529DB80A100F26A07 /* PlayerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		042553D629DB80A100F26A07 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		042553D729DB80A100F26A07 /* PlayerControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerControllerView.swift; sourceTree = "<group>"; };
+		042553D929DB80A200F26A07 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		042553DA29DB80A200F26A07 /* VimeoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimeoResponse.swift; sourceTree = "<group>"; };
+		042553DB29DB80A200F26A07 /* VimeoVideoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimeoVideoConfig.swift; sourceTree = "<group>"; };
 		0462394329D98E450064F382 /* VimeoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimeoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0462394F29D98E460064F382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0462395429D98E460064F382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,55 +127,6 @@
 		0462396329D98E460064F382 /* VimeoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimeoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0462396729D98E460064F382 /* VimeoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoPlayerUITests.swift; sourceTree = "<group>"; };
 		0462396929D98E460064F382 /* VimeoPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimeoPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0462397729D98EB00064F382 /* ImageLoaderProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoaderProxy.swift; sourceTree = "<group>"; };
-		0462397929D98EB00064F382 /* LoadStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadStatus.swift; sourceTree = "<group>"; };
-		0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
-		0462397C29D98EB00064F382 /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
-		0462397D29D98EB00064F382 /* DoubleEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleEx.swift; sourceTree = "<group>"; };
-		0462397E29D98EB00064F382 /* RxAvPlayerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAvPlayerEx.swift; sourceTree = "<group>"; };
-		0462397F29D98EB00064F382 /* HTTPURLResponseEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponseEx.swift; sourceTree = "<group>"; };
-		0462398029D98EB00064F382 /* UIViewControllerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerEx.swift; sourceTree = "<group>"; };
-		0462398129D98EB00064F382 /* DataEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataEx.swift; sourceTree = "<group>"; };
-		0462398229D98EB00064F382 /* StroyboardEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StroyboardEx.swift; sourceTree = "<group>"; };
-		0462398329D98EB00064F382 /* UIInterfaceOrientationMask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIInterfaceOrientationMask.swift; sourceTree = "<group>"; };
-		0462398429D98EB00064F382 /* StringEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringEx.swift; sourceTree = "<group>"; };
-		0462398529D98EB00064F382 /* AVPlayerEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerEx.swift; sourceTree = "<group>"; };
-		0462398629D98EB00064F382 /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
-		0462398829D98EB00064F382 /* PlayerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSlider.swift; sourceTree = "<group>"; };
-		0462398929D98EB00064F382 /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
-		0462398A29D98EB00064F382 /* PlayerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerController.swift; sourceTree = "<group>"; };
-		0462398F29D98EB00064F382 /* AppSteps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSteps.swift; sourceTree = "<group>"; };
-		0462399029D98EB00064F382 /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
-		0462399129D98EB00064F382 /* AppStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
-		0462399829D98EB00064F382 /* ApiRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRepository.swift; sourceTree = "<group>"; };
-		0462399929D98EB00064F382 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
-		0462399A29D98EB00064F382 /* ApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
-		0462399C29D98EB00064F382 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0462399E29D98EB00064F382 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		046239A029D98EB10064F382 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
-		046239A129D98EB10064F382 /* VimeoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimeoResponse.swift; sourceTree = "<group>"; };
-		046239A229D98EB10064F382 /* VimeoVideoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimeoVideoConfig.swift; sourceTree = "<group>"; };
-		046239A529D98EB10064F382 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		046239A629D98EB10064F382 /* DetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
-		046239A829D98EB10064F382 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
-		046239A929D98EB10064F382 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
-		046239AC29D98EB10064F382 /* ListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
-		046239AD29D98EB10064F382 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
-		046239B029D98EB10064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		046239B229D98EB10064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		046239B329D98EB10064F382 /* ImageTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextView.swift; sourceTree = "<group>"; };
-		046239B529D98EB10064F382 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		046239B629D98EB10064F382 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
-		046239B729D98EB10064F382 /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
-		06E939538B979159DAA1E6FE /* Pods_VimeoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		304D6D07504DA27820671B75 /* Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-VimeoPlayer-VimeoPlayerUITests/Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3442D236C5870E15D727B053 /* Pods-VimeoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayer.release.xcconfig"; path = "Target Support Files/Pods-VimeoPlayer/Pods-VimeoPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		5DB26542884CC0D22EE463C0 /* Pods-VimeoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-VimeoPlayer/Pods-VimeoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
-		693E8C8839DCACB98BA279C8 /* Pods_VimeoPlayer_VimeoPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoPlayer_VimeoPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98204F7D6F6AB31A7BE401F5 /* Pods-VimeoPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-VimeoPlayerTests/Pods-VimeoPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B49F97C79489BC0B61ADDD14 /* Pods-VimeoPlayer-VimeoPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayer-VimeoPlayerUITests.debug.xcconfig"; path = "Target Support Files/Pods-VimeoPlayer-VimeoPlayerUITests/Pods-VimeoPlayer-VimeoPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		ED1A4DB85E326F32313D9B8B /* Pods-VimeoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-VimeoPlayerTests/Pods-VimeoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
-		F84EA4E649BE792ACE6844D1 /* Pods_VimeoPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2389198A9E1709CCF5272630 /* Pods_VimeoPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +141,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B83CB6B0B64A06502D5D86F /* Pods_VimeoPlayerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,13 +148,160 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A94C753DE075787FC2D93BA6 /* Pods_VimeoPlayer_VimeoPlayerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042553A129DB80A100F26A07 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				042553A229DB80A100F26A07 /* LoadStatus.swift */,
+				042553A329DB80A100F26A07 /* Extensions */,
+				042553AE29DB80A100F26A07 /* Formatter.swift */,
+				042553AF29DB80A100F26A07 /* Store.swift */,
+				042553B029DB80A100F26A07 /* DeviceRotationViewModifier.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		042553A329DB80A100F26A07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				042553A429DB80A100F26A07 /* DoubleEx.swift */,
+				042553A529DB80A100F26A07 /* ViewEx.swift */,
+				042553A629DB80A100F26A07 /* AVFoundation */,
+				042553AA29DB80A100F26A07 /* HTTPURLResponseEx.swift */,
+				042553AB29DB80A100F26A07 /* DataEx.swift */,
+				042553AC29DB80A100F26A07 /* UIInterfaceOrientationMask.swift */,
+				042553AD29DB80A100F26A07 /* StringEx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		042553A629DB80A100F26A07 /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				042553A729DB80A100F26A07 /* CMTimeEx.swift */,
+				042553A829DB80A100F26A07 /* AVPlayerEx.swift */,
+				042553A929DB80A100F26A07 /* AVPlayerItemEx.swift */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		042553B129DB80A100F26A07 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				042553B229DB80A100F26A07 /* NavigableProtocol.swift */,
+				042553B329DB80A100F26A07 /* FlowViewModel.swift */,
+				042553B429DB80A100F26A07 /* FlowView.swift */,
+				042553B529DB80A100F26A07 /* Screen.swift */,
+				042553B629DB80A100F26A07 /* FlowAction.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		042553B729DB80A100F26A07 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				042553B829DB80A100F26A07 /* ApiRepository.swift */,
+				042553B929DB80A100F26A07 /* ApiRequest.swift */,
+				042553BA29DB80A100F26A07 /* ApiRoute.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		042553BB29DB80A100F26A07 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				042553BC29DB80A100F26A07 /* LaunchScreen.storyboard */,
+				042553BE29DB80A100F26A07 /* Detail */,
+				042553C129DB80A100F26A07 /* List */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		042553BE29DB80A100F26A07 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				042553BF29DB80A100F26A07 /* DetailView.swift */,
+				042553C029DB80A100F26A07 /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		042553C129DB80A100F26A07 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				042553C229DB80A100F26A07 /* ListView.swift */,
+				042553C329DB80A100F26A07 /* ListViewModel.swift */,
+				042553C429DB80A100F26A07 /* ListCellView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		042553C529DB80A100F26A07 /* AppConstant */ = {
+			isa = PBXGroup;
+			children = (
+				042553C629DB80A100F26A07 /* Constants.swift */,
+				042553C729DB80A100F26A07 /* ImageResource.swift */,
+				042553C829DB80A100F26A07 /* StringResource.swift */,
+			);
+			path = AppConstant;
+			sourceTree = "<group>";
+		};
+		042553C929DB80A100F26A07 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				042553CA29DB80A100F26A07 /* AppDelegate.swift */,
+				042553CB29DB80A100F26A07 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		042553CC29DB80A100F26A07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				042553CD29DB80A100F26A07 /* InfoView.swift */,
+				042553CE29DB80A100F26A07 /* StatusView.swift */,
+				042553CF29DB80A100F26A07 /* Stroyboards */,
+				042553D029DB80A100F26A07 /* DequeueReusableAsyncImage.swift */,
+				042553D129DB80A100F26A07 /* Player */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		042553CF29DB80A100F26A07 /* Stroyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stroyboards;
+			sourceTree = "<group>";
+		};
+		042553D129DB80A100F26A07 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				042553D229DB80A100F26A07 /* PlayerUIView.swift */,
+				042553D329DB80A100F26A07 /* PlayerSliderView.swift */,
+				042553D429DB80A100F26A07 /* PlayerContainerView.swift */,
+				042553D529DB80A100F26A07 /* PlayerViewModel.swift */,
+				042553D629DB80A100F26A07 /* PlayerView.swift */,
+				042553D729DB80A100F26A07 /* PlayerControllerView.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		042553D829DB80A200F26A07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042553D929DB80A200F26A07 /* SearchRequest.swift */,
+				042553DA29DB80A200F26A07 /* VimeoResponse.swift */,
+				042553DB29DB80A200F26A07 /* VimeoVideoConfig.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0462393A29D98E450064F382 = {
 			isa = PBXGroup;
 			children = (
@@ -168,8 +309,6 @@
 				0462395C29D98E460064F382 /* VimeoPlayerTests */,
 				0462396629D98E460064F382 /* VimeoPlayerUITests */,
 				0462394429D98E450064F382 /* Products */,
-				2338BC9FBB5080DCD99C9489 /* Pods */,
-				5059E5EDC1E262FADABF9617 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -186,14 +325,14 @@
 		0462394529D98E450064F382 /* VimeoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				0462399729D98EB00064F382 /* Api */,
-				046239B429D98EB10064F382 /* AppConstant */,
-				0462399B29D98EB00064F382 /* Application */,
-				0462398E29D98EB00064F382 /* Flows */,
-				0462397629D98EB00064F382 /* Helper */,
-				0462399F29D98EB10064F382 /* Model */,
-				046239A329D98EB10064F382 /* Pages */,
-				046239AA29D98EB10064F382 /* Views */,
+				042553B729DB80A100F26A07 /* Api */,
+				042553C529DB80A100F26A07 /* AppConstant */,
+				042553C929DB80A100F26A07 /* Application */,
+				042553CC29DB80A100F26A07 /* Components */,
+				042553B129DB80A100F26A07 /* Flows */,
+				042553A129DB80A100F26A07 /* Helper */,
+				042553D829DB80A200F26A07 /* Model */,
+				042553BB29DB80A100F26A07 /* Pages */,
 				0462394F29D98E460064F382 /* Assets.xcassets */,
 				0462395429D98E460064F382 /* Info.plist */,
 			);
@@ -217,173 +356,6 @@
 			path = VimeoPlayerUITests;
 			sourceTree = "<group>";
 		};
-		0462397629D98EB00064F382 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				0462397B29D98EB00064F382 /* Extensions */,
-				0462397729D98EB00064F382 /* ImageLoaderProxy.swift */,
-				0462397929D98EB00064F382 /* LoadStatus.swift */,
-				0462397A29D98EB00064F382 /* BaseViewModelProtocol.swift */,
-				0462398629D98EB00064F382 /* Formatter.swift */,
-				0462398729D98EB00064F382 /* Player */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		0462397B29D98EB00064F382 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				0462397C29D98EB00064F382 /* UIViewEx.swift */,
-				0462397D29D98EB00064F382 /* DoubleEx.swift */,
-				0462397E29D98EB00064F382 /* RxAvPlayerEx.swift */,
-				0462397F29D98EB00064F382 /* HTTPURLResponseEx.swift */,
-				0462398029D98EB00064F382 /* UIViewControllerEx.swift */,
-				0462398129D98EB00064F382 /* DataEx.swift */,
-				0462398229D98EB00064F382 /* StroyboardEx.swift */,
-				0462398329D98EB00064F382 /* UIInterfaceOrientationMask.swift */,
-				0462398429D98EB00064F382 /* StringEx.swift */,
-				0462398529D98EB00064F382 /* AVPlayerEx.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		0462398729D98EB00064F382 /* Player */ = {
-			isa = PBXGroup;
-			children = (
-				0462398829D98EB00064F382 /* PlayerSlider.swift */,
-				0462398929D98EB00064F382 /* PlayerView.swift */,
-				0462398A29D98EB00064F382 /* PlayerController.swift */,
-			);
-			path = Player;
-			sourceTree = "<group>";
-		};
-		0462398E29D98EB00064F382 /* Flows */ = {
-			isa = PBXGroup;
-			children = (
-				0462398F29D98EB00064F382 /* AppSteps.swift */,
-				0462399029D98EB00064F382 /* AppFlow.swift */,
-				0462399129D98EB00064F382 /* AppStepper.swift */,
-			);
-			path = Flows;
-			sourceTree = "<group>";
-		};
-		0462399729D98EB00064F382 /* Api */ = {
-			isa = PBXGroup;
-			children = (
-				0462399829D98EB00064F382 /* ApiRepository.swift */,
-				0462399929D98EB00064F382 /* ApiRequest.swift */,
-				0462399A29D98EB00064F382 /* ApiRoute.swift */,
-			);
-			path = Api;
-			sourceTree = "<group>";
-		};
-		0462399B29D98EB00064F382 /* Application */ = {
-			isa = PBXGroup;
-			children = (
-				0462399C29D98EB00064F382 /* AppDelegate.swift */,
-				0462399E29D98EB00064F382 /* SceneDelegate.swift */,
-			);
-			path = Application;
-			sourceTree = "<group>";
-		};
-		0462399F29D98EB10064F382 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				046239A029D98EB10064F382 /* SearchRequest.swift */,
-				046239A129D98EB10064F382 /* VimeoResponse.swift */,
-				046239A229D98EB10064F382 /* VimeoVideoConfig.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		046239A329D98EB10064F382 /* Pages */ = {
-			isa = PBXGroup;
-			children = (
-				046239A429D98EB10064F382 /* Detail */,
-				046239A729D98EB10064F382 /* List */,
-			);
-			path = Pages;
-			sourceTree = "<group>";
-		};
-		046239A429D98EB10064F382 /* Detail */ = {
-			isa = PBXGroup;
-			children = (
-				046239A529D98EB10064F382 /* DetailViewController.swift */,
-				046239A629D98EB10064F382 /* DetailViewModel.swift */,
-			);
-			path = Detail;
-			sourceTree = "<group>";
-		};
-		046239A729D98EB10064F382 /* List */ = {
-			isa = PBXGroup;
-			children = (
-				046239A829D98EB10064F382 /* ListViewController.swift */,
-				046239A929D98EB10064F382 /* ListViewModel.swift */,
-			);
-			path = List;
-			sourceTree = "<group>";
-		};
-		046239AA29D98EB10064F382 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				046239AB29D98EB10064F382 /* Cell */,
-				046239AE29D98EB10064F382 /* Stroyboards */,
-				046239B329D98EB10064F382 /* ImageTextView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		046239AB29D98EB10064F382 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				046239AC29D98EB10064F382 /* ListCell.swift */,
-				046239AD29D98EB10064F382 /* ListCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
-		046239AE29D98EB10064F382 /* Stroyboards */ = {
-			isa = PBXGroup;
-			children = (
-				046239AF29D98EB10064F382 /* LaunchScreen.storyboard */,
-				046239B129D98EB10064F382 /* Main.storyboard */,
-			);
-			path = Stroyboards;
-			sourceTree = "<group>";
-		};
-		046239B429D98EB10064F382 /* AppConstant */ = {
-			isa = PBXGroup;
-			children = (
-				046239B529D98EB10064F382 /* Constants.swift */,
-				046239B629D98EB10064F382 /* ImageResource.swift */,
-				046239B729D98EB10064F382 /* StringResource.swift */,
-			);
-			path = AppConstant;
-			sourceTree = "<group>";
-		};
-		2338BC9FBB5080DCD99C9489 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5DB26542884CC0D22EE463C0 /* Pods-VimeoPlayer.debug.xcconfig */,
-				3442D236C5870E15D727B053 /* Pods-VimeoPlayer.release.xcconfig */,
-				B49F97C79489BC0B61ADDD14 /* Pods-VimeoPlayer-VimeoPlayerUITests.debug.xcconfig */,
-				304D6D07504DA27820671B75 /* Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig */,
-				98204F7D6F6AB31A7BE401F5 /* Pods-VimeoPlayerTests.debug.xcconfig */,
-				ED1A4DB85E326F32313D9B8B /* Pods-VimeoPlayerTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		5059E5EDC1E262FADABF9617 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				06E939538B979159DAA1E6FE /* Pods_VimeoPlayer.framework */,
-				693E8C8839DCACB98BA279C8 /* Pods_VimeoPlayer_VimeoPlayerUITests.framework */,
-				F84EA4E649BE792ACE6844D1 /* Pods_VimeoPlayerTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -391,11 +363,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462396D29D98E460064F382 /* Build configuration list for PBXNativeTarget "VimeoPlayer" */;
 			buildPhases = (
-				A46B95745BAE13EA588E77EA /* [CP] Check Pods Manifest.lock */,
 				0462393F29D98E450064F382 /* Sources */,
 				0462394029D98E450064F382 /* Frameworks */,
 				0462394129D98E450064F382 /* Resources */,
-				AA1DFB235FCB7E44B59461CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -410,11 +380,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462397029D98E460064F382 /* Build configuration list for PBXNativeTarget "VimeoPlayerTests" */;
 			buildPhases = (
-				8C2CF72B583DE03B093C2337 /* [CP] Check Pods Manifest.lock */,
 				0462395529D98E460064F382 /* Sources */,
 				0462395629D98E460064F382 /* Frameworks */,
 				0462395729D98E460064F382 /* Resources */,
-				5222BD151AFEED33AA68CB25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -430,11 +398,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0462397329D98E460064F382 /* Build configuration list for PBXNativeTarget "VimeoPlayerUITests" */;
 			buildPhases = (
-				9072F2B59FF0E8676F6F5EBF /* [CP] Check Pods Manifest.lock */,
 				0462395F29D98E460064F382 /* Sources */,
 				0462396029D98E460064F382 /* Frameworks */,
 				0462396129D98E460064F382 /* Resources */,
-				ACC41A400D6DA6470D080D08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -494,10 +460,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046239DD29D98EB10064F382 /* ListCell.xib in Resources */,
-				046239DF29D98EB10064F382 /* Main.storyboard in Resources */,
-				046239DE29D98EB10064F382 /* LaunchScreen.storyboard in Resources */,
 				0462395029D98E460064F382 /* Assets.xcassets in Resources */,
+				042553F129DB80A200F26A07 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,168 +481,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		5222BD151AFEED33AA68CB25 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayerTests/Pods-VimeoPlayerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayerTests/Pods-VimeoPlayerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayerTests/Pods-VimeoPlayerTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C2CF72B583DE03B093C2337 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VimeoPlayerTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9072F2B59FF0E8676F6F5EBF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VimeoPlayer-VimeoPlayerUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A46B95745BAE13EA588E77EA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VimeoPlayer-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA1DFB235FCB7E44B59461CE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayer/Pods-VimeoPlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayer/Pods-VimeoPlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayer/Pods-VimeoPlayer-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ACC41A400D6DA6470D080D08 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayer-VimeoPlayerUITests/Pods-VimeoPlayer-VimeoPlayerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayer-VimeoPlayerUITests/Pods-VimeoPlayer-VimeoPlayerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VimeoPlayer-VimeoPlayerUITests/Pods-VimeoPlayer-VimeoPlayerUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		0462393F29D98E450064F382 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046239CF29D98EB10064F382 /* ApiRepository.swift in Sources */,
-				046239E029D98EB10064F382 /* ImageTextView.swift in Sources */,
-				046239C129D98EB10064F382 /* DataEx.swift in Sources */,
-				046239DC29D98EB10064F382 /* ListCell.swift in Sources */,
-				046239C929D98EB10064F382 /* PlayerController.swift in Sources */,
-				046239E329D98EB10064F382 /* StringResource.swift in Sources */,
-				046239BF29D98EB10064F382 /* HTTPURLResponseEx.swift in Sources */,
-				046239DA29D98EB10064F382 /* ListViewController.swift in Sources */,
-				046239BD29D98EB10064F382 /* DoubleEx.swift in Sources */,
-				046239D729D98EB10064F382 /* VimeoVideoConfig.swift in Sources */,
-				046239C829D98EB10064F382 /* PlayerView.swift in Sources */,
-				046239C029D98EB10064F382 /* UIViewControllerEx.swift in Sources */,
-				046239BC29D98EB10064F382 /* UIViewEx.swift in Sources */,
-				046239C529D98EB10064F382 /* AVPlayerEx.swift in Sources */,
-				046239D129D98EB10064F382 /* ApiRoute.swift in Sources */,
-				046239D429D98EB10064F382 /* SceneDelegate.swift in Sources */,
-				046239D029D98EB10064F382 /* ApiRequest.swift in Sources */,
-				046239BA29D98EB10064F382 /* LoadStatus.swift in Sources */,
-				046239DB29D98EB10064F382 /* ListViewModel.swift in Sources */,
-				046239E229D98EB10064F382 /* ImageResource.swift in Sources */,
-				046239D929D98EB10064F382 /* DetailViewModel.swift in Sources */,
-				046239D229D98EB10064F382 /* AppDelegate.swift in Sources */,
-				046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */,
-				046239CC29D98EB10064F382 /* AppStepper.swift in Sources */,
-				046239D829D98EB10064F382 /* DetailViewController.swift in Sources */,
-				046239C329D98EB10064F382 /* UIInterfaceOrientationMask.swift in Sources */,
-				046239BB29D98EB10064F382 /* BaseViewModelProtocol.swift in Sources */,
-				046239CB29D98EB10064F382 /* AppFlow.swift in Sources */,
-				046239C229D98EB10064F382 /* StroyboardEx.swift in Sources */,
-				046239C629D98EB10064F382 /* Formatter.swift in Sources */,
-				046239CA29D98EB10064F382 /* AppSteps.swift in Sources */,
-				046239D629D98EB10064F382 /* VimeoResponse.swift in Sources */,
-				046239C729D98EB10064F382 /* PlayerSlider.swift in Sources */,
-				046239D529D98EB10064F382 /* SearchRequest.swift in Sources */,
-				046239C429D98EB10064F382 /* StringEx.swift in Sources */,
-				046239E129D98EB10064F382 /* Constants.swift in Sources */,
-				046239BE29D98EB10064F382 /* RxAvPlayerEx.swift in Sources */,
+				0425540529DB80A200F26A07 /* SearchRequest.swift in Sources */,
+				0425540729DB80A200F26A07 /* VimeoVideoConfig.swift in Sources */,
+				0425540029DB80A200F26A07 /* PlayerSliderView.swift in Sources */,
+				042553E629DB80A200F26A07 /* Formatter.swift in Sources */,
+				042553F929DB80A200F26A07 /* StringResource.swift in Sources */,
+				042553FD29DB80A200F26A07 /* StatusView.swift in Sources */,
+				042553FB29DB80A200F26A07 /* SceneDelegate.swift in Sources */,
+				042553E029DB80A200F26A07 /* AVPlayerEx.swift in Sources */,
+				042553E129DB80A200F26A07 /* AVPlayerItemEx.swift in Sources */,
+				042553E829DB80A200F26A07 /* DeviceRotationViewModifier.swift in Sources */,
+				042553F029DB80A200F26A07 /* ApiRoute.swift in Sources */,
+				0425540229DB80A200F26A07 /* PlayerViewModel.swift in Sources */,
+				042553F229DB80A200F26A07 /* DetailView.swift in Sources */,
+				0425540129DB80A200F26A07 /* PlayerContainerView.swift in Sources */,
+				042553E729DB80A200F26A07 /* Store.swift in Sources */,
+				042553DC29DB80A200F26A07 /* LoadStatus.swift in Sources */,
+				0425540629DB80A200F26A07 /* VimeoResponse.swift in Sources */,
+				042553F429DB80A200F26A07 /* ListView.swift in Sources */,
+				042553E529DB80A200F26A07 /* StringEx.swift in Sources */,
+				042553ED29DB80A200F26A07 /* FlowAction.swift in Sources */,
+				042553EE29DB80A200F26A07 /* ApiRepository.swift in Sources */,
+				042553F329DB80A200F26A07 /* DetailViewModel.swift in Sources */,
+				042553E929DB80A200F26A07 /* NavigableProtocol.swift in Sources */,
+				042553FC29DB80A200F26A07 /* InfoView.swift in Sources */,
+				042553EA29DB80A200F26A07 /* FlowViewModel.swift in Sources */,
+				042553F529DB80A200F26A07 /* ListViewModel.swift in Sources */,
+				042553FE29DB80A200F26A07 /* DequeueReusableAsyncImage.swift in Sources */,
+				042553FF29DB80A200F26A07 /* PlayerUIView.swift in Sources */,
+				0425540429DB80A200F26A07 /* PlayerControllerView.swift in Sources */,
+				042553F629DB80A200F26A07 /* ListCellView.swift in Sources */,
+				042553FA29DB80A200F26A07 /* AppDelegate.swift in Sources */,
+				042553DF29DB80A200F26A07 /* CMTimeEx.swift in Sources */,
+				042553DD29DB80A200F26A07 /* DoubleEx.swift in Sources */,
+				042553E429DB80A200F26A07 /* UIInterfaceOrientationMask.swift in Sources */,
+				042553EB29DB80A200F26A07 /* FlowView.swift in Sources */,
+				042553F829DB80A200F26A07 /* ImageResource.swift in Sources */,
+				042553E229DB80A200F26A07 /* HTTPURLResponseEx.swift in Sources */,
+				0425540329DB80A200F26A07 /* PlayerView.swift in Sources */,
+				042553EC29DB80A200F26A07 /* Screen.swift in Sources */,
+				042553E329DB80A200F26A07 /* DataEx.swift in Sources */,
+				042553EF29DB80A200F26A07 /* ApiRequest.swift in Sources */,
+				042553DE29DB80A200F26A07 /* ViewEx.swift in Sources */,
+				042553F729DB80A200F26A07 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -715,20 +565,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		046239AF29D98EB10064F382 /* LaunchScreen.storyboard */ = {
+		042553BC29DB80A100F26A07 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				046239B029D98EB10064F382 /* Base */,
+				042553BD29DB80A100F26A07 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		046239B129D98EB10064F382 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				046239B229D98EB10064F382 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -850,7 +692,6 @@
 		};
 		0462396E29D98E460064F382 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DB26542884CC0D22EE463C0 /* Pods-VimeoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -861,7 +702,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Vimeo player";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -879,7 +719,6 @@
 		};
 		0462396F29D98E460064F382 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3442D236C5870E15D727B053 /* Pods-VimeoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -890,7 +729,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Vimeo player";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -908,7 +746,6 @@
 		};
 		0462397129D98E460064F382 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98204F7D6F6AB31A7BE401F5 /* Pods-VimeoPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -928,7 +765,6 @@
 		};
 		0462397229D98E460064F382 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED1A4DB85E326F32313D9B8B /* Pods-VimeoPlayerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -948,7 +784,6 @@
 		};
 		0462397429D98E460064F382 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B49F97C79489BC0B61ADDD14 /* Pods-VimeoPlayer-VimeoPlayerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -966,7 +801,6 @@
 		};
 		0462397529D98E460064F382 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 304D6D07504DA27820671B75 /* Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

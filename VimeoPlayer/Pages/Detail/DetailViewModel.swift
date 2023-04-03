@@ -1,46 +1,77 @@
 //
-//  DetailViewModel.swift
+//  DetailViewModelC.swift
 //  VimeoPlayer
 //
-//  Created by Ali on 2/14/23.
+//  Created by Ali on 3/9/23.
 //
 
 import Foundation
-import RxFlow
-import RxRelay
-import RxSwift
+import Combine
+import AVFoundation
 
-protocol DetailViewModelProtocol:BaseViewModel{
-    var data:VimeoResponse.Data {get}
-    var videoConfig: PublishRelay<VimeoVideoConfig> { get set }
-    var status: PublishRelay<LoadStatus> { get set }
-    func loadVideoConfig()
-}
-class DetailViewModel:BaseViewModel,DetailViewModelProtocol{
-
-    var data:VimeoResponse.Data
-    var videoConfig: PublishRelay<VimeoVideoConfig> = .init()
-    var status: PublishRelay<LoadStatus> = .init()
-    var steps: PublishRelay<Step> = .init()
+final class DetailViewModel:ObservableObject,NavigableProtocol{
     
-    private let disposeBag = DisposeBag()
+    var navigate : PassthroughSubject<FlowAction, Never> = .init()
+    private var cancellable = Set<AnyCancellable>()
+    
+    @Published var data:VimeoResponse.Data
+    @Published var status: LoadStatus?
+    
+    private weak var playerVM:PlayerViewModel?
+    
     
     init(data:VimeoResponse.Data) {
         self.data = data
     }
-
-    func loadVideoConfig(){
+    
+    func viewDidAppear(with playerVM:PlayerViewModel){
+         set(playerVM)
+         loadVideoConfig()
+    }
+    
+   private func set(_ playerVM:PlayerViewModel){
+        self.playerVM = playerVM
+        playerVM.player.currentItemPublisher().sink(receiveValue: {
+           [weak self] item in
+            guard let item = item else {return}
+            self?.configAVItem(item)
+        }).store(in: &cancellable)
+    }
+    
+   private func loadVideoConfig(){
+        status = .loading
+        ApiRepository().getVideoconfig(for:  data.id)
+            .receive(on: DispatchQueue.main)
+            .sink(receiveCompletion: {
+                [weak self] result in
+                switch result {
+                case .failure(let error):
+                    self?.status = .error(error: error)
+                case .finished:break
+                }
+            }, receiveValue: {[weak self] value in
+                self?.status = .fetched
+                self?.configPlayer(config: value)
+            }).store(in: &cancellable)
+    }
+    
+    private func configPlayer(config:VimeoVideoConfig){
         
-        status.accept(.loading)
-        ApiRepository().getVideoconfig(for: data.id)
-            .observe(on: MainScheduler.instance)
-            .subscribe(onNext: {[weak self] VimeoVideoConfig in
-                self?.status.accept(.fetched)
-                self?.videoConfig.accept(VimeoVideoConfig)
-            },onError: {[weak self] error in
-                print(error)
-                self?.status.accept(.error(error:error))
-            }).disposed(by: disposeBag)
+        guard let link = config.request?.files?.progressive.first?.url,let url = URL(string: link) else{
+            return
+        }
+        playerVM?.setAVItem(for: url)
+    }
+    
+    private func configAVItem(_ item:AVPlayerItem){
+        item.didPlayToEndTimePublisher().sink(receiveValue: {[weak self] value in
+            self?.playerVM?.reset()
+        }).store(in: &cancellable)
         
+        item.statusPublisher().sink(receiveValue: {[weak self] status in
+            if status == .readyToPlay {
+                self?.playerVM?.play()
+            }
+        }).store(in: &cancellable)
     }
 }

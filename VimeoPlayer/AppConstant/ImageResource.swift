@@ -19,15 +19,15 @@ enum ImageResource:String{
     case unMute_icon = "speaker.fill"
     case expand_icon = "arrow.up.left.and.down.right.and.arrow.up.right.and.down.left"
     case collapse_icon = "arrow.down.forward.and.arrow.up.backward"
-    
+    case person = "person.fill"
     case comment_icon = "bubble.left.and.bubble.right.fill"
     case like_icon = "heart.fill"
     
-    static func name (for image:ImageResource)->String{
+    static func getName (for image:ImageResource)->String{
         return image.rawValue
     }
     
-    static func image (for image:ImageResource,color:UIColor = .darkGray)->UIImage?{
-        return  UIImage(systemName: image.rawValue)?.withTintColor(color, renderingMode: .alwaysOriginal)
+    static func getImage (for image:ImageResource,color:UIColor = .darkGray)->UIImage{
+        return  UIImage(systemName: image.rawValue)!.withTintColor(color, renderingMode: .alwaysOriginal)
     }
 }

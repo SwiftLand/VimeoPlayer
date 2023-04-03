@@ -6,31 +6,18 @@
 //
 
 import UIKit
-import RxFlow
+import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-    var coordinator = FlowCoordinator()
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-        createFlow(window: window)
+        window.rootViewController = UIHostingController(rootView:FlowView())
+        window.makeKeyAndVisible()
     }
-
-    private func createFlow(window:UIWindow) {
-        
-        let appFlow = AppFlow()
-        self.coordinator.coordinate(flow: appFlow, with: AppStepper())
-
-        Flows.use(appFlow, when: .created) { root in
-            window.rootViewController = root
-            window.makeKeyAndVisible()
-        }
-        
-    }
-
 }
 

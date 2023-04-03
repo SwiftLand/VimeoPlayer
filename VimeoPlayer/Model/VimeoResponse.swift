@@ -20,7 +20,7 @@ struct VimeoResponse: Codable,Equatable {
     }
     
     // MARK: - Data
-    struct Data: Codable,Equatable {
+    struct Data: Codable,Equatable,Hashable,Identifiable {
         var id:String {uri.lastPathComponent}
         let uri:String
         let name: String?
@@ -36,25 +36,25 @@ struct VimeoResponse: Codable,Equatable {
     }
 
     // MARK: - Metadata
-    struct Metadata: Codable,Equatable {
+    struct Metadata: Codable,Equatable,Hashable {
         let connections: PurpleConnections?
 
     }
 
     // MARK: - PurpleConnections
-    struct PurpleConnections: Codable,Equatable {
+    struct PurpleConnections: Codable,Equatable,Hashable {
         let comments, credits, likes, pictures: ConnectionData?
     }
 
     // MARK: - ConnectionData
-    struct ConnectionData: Codable,Equatable {
+    struct ConnectionData: Codable,Equatable,Hashable {
         let uri: String?
         let options: [String]
         let total: Int?
     }
 
     // MARK: - Pictures
-    struct Pictures: Codable,Equatable {
+    struct Pictures: Codable,Equatable,Hashable {
         let uri: String?
         let active: Bool?
         let type: String?
@@ -78,7 +78,7 @@ struct VimeoResponse: Codable,Equatable {
     }
 
     // MARK: - Size
-    struct Size: Codable,Equatable {
+    struct Size: Codable,Equatable,Hashable {
         let width, height: Int
         let link: String?
         let linkWithPlayButton: String?
@@ -90,17 +90,17 @@ struct VimeoResponse: Codable,Equatable {
     }
 
     // MARK: - Stats
-    struct Stats: Codable,Equatable {
+    struct Stats: Codable,Equatable,Hashable {
         let plays: Int?
     }
 
     // MARK: - Uploader
-    struct Uploader: Codable,Equatable {
+    struct Uploader: Codable,Equatable,Hashable {
         let pictures: Pictures?
     }
 
     // MARK: - User
-    struct User: Codable,Equatable {
+    struct User: Codable,Equatable,Hashable {
         let uri, name: String?
         let pictures: Pictures?
         let resourceKey: String?
@@ -108,7 +108,7 @@ struct VimeoResponse: Codable,Equatable {
     }
 
     // MARK: - Paging
-    struct Paging: Codable,Equatable {
+    struct Paging: Codable,Equatable,Hashable {
         let next: String?
         let previous: String?
         let first, last: String?

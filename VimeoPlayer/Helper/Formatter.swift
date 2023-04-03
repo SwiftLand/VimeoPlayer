@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import AVFoundation
 class Formatter{
     
    static func formateDuration(seacond:Int) -> String {
@@ -43,6 +43,21 @@ class Formatter{
         default:
             return "\(sign)\(n)"
         }
+    }
+    
+  static func formatProgress(currentTime: CMTime, duration: CMTime) -> Double {
+        if !duration.isValid || !currentTime.isValid {
+            return 0
+        }
+        
+        let totalSeconds = duration.seconds
+        let currentSeconds = currentTime.seconds
+        
+        if !totalSeconds.isFinite || !currentSeconds.isFinite {
+            return 0
+        }
+        
+        return min(currentSeconds/totalSeconds, 1)
     }
 
 }

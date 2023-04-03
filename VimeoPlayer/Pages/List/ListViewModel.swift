@@ -2,55 +2,45 @@
 //  ListViewModel.swift
 //  VimeoPlayer
 //
-//  Created by Ali on 2/14/23.
+//  Created by Ali on 3/8/23.
 //
 
 import Foundation
-import RxFlow
-import RxSwift
-import RxRelay
+import Combine
 
-protocol ListViewModeProtocol:BaseViewModel{
-    var dataRelay: PublishRelay<[VimeoResponse.Data]> { get set }
-    var statusRelay: PublishRelay<LoadStatus> { get set }
-    func search(for request:SearchRequest)
-    func selectItem(with data:VimeoResponse.Data)
-}
+final class ListViewModel:ObservableObject,NavigableProtocol{
 
-class ListViewModel:BaseViewModel,ListViewModeProtocol{
-     
-    var loadedDate:[VimeoResponse.Data] = []{
-        didSet{
-            dataRelay.accept(loadedDate)
-        }
-    }
-    var dataRelay: PublishRelay<[VimeoResponse.Data]> = .init()
-    var statusRelay: PublishRelay<LoadStatus> = .init()
-    var steps: PublishRelay<Step> = .init()
+    var navigate: PassthroughSubject<FlowAction, Never> = .init()
     
+    @Published var data:[VimeoResponse.Data] = []
+    @Published var status: LoadStatus?
     
-    private let disposeBag = DisposeBag()
-    
-    
+    private var cancellable = Set<AnyCancellable>()
+  
     func search(for request:SearchRequest){
        
         if request.page == 1 {
-            loadedDate = []
+            data = []
         }
         
-        statusRelay.accept(.loading)
-        ApiRepository().search(for: request)
-            .observe(on: MainScheduler.instance).subscribe(onNext: {[weak self] VimeoResponse in
-                self?.statusRelay.accept(.fetched)
-                self?.loadedDate.append(contentsOf: VimeoResponse.data)
-            },onError: {[weak self] error in
-                print(error)
-                self?.statusRelay.accept(.error(error:error))
-            }).disposed(by: disposeBag)
+        status = .loading
         
+        ApiRepository().search(for: request)
+            .receive(on: DispatchQueue.main)
+            .sink(receiveCompletion: {
+                [weak self] result in
+                switch result {
+                case .failure(let error):
+                    self?.status = .error(error: error)
+                case .finished:break
+                }
+            }, receiveValue: {[weak self] value in
+                self?.status = .fetched
+                self?.data.append(contentsOf: value.data)
+            }).store(in: &cancellable)
     }
     
     func selectItem(with data:VimeoResponse.Data){
-        steps.accept(AppSteps.showDetail(detail: data))
+        navigate.send(.showDetail(detail: data))
     }
 }
