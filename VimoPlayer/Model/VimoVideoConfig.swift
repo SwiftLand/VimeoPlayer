@@ -23,11 +23,11 @@ struct VimoVideoConfig: Codable {
 
     // MARK: - Progressive
     struct Progressive: Codable {
-        let width: Int
+        let width: Int?
         let mime: String?
-        let fps: Int
+        let fps: Double?
         let url: String?
         let cdn, quality, origin: String?
-        let height: Int
+        let height: Int?
     }
 }
