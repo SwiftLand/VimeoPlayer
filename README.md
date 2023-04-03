@@ -40,19 +40,17 @@ The main branch was created with UIKit, but you can check the [SwiftUI version](
 
 To run the UIKit version you have to install [CocoaPods](https://cocoapods.org) first. than run `pod install` in project folder.
 
-
-
 To use this app, you have to create your public API key by following this link: [Vimeo developer](https://developer.vimeo.com/)
 
-This app works well with a public token, which is **an “Unauthenticated”** token, but to get all features, you must check the “**Authenticated”** token, then check the **private**, **interact,** and **stats** options.
+**Vimeo player** works well with a public token, which is **an “Unauthenticated”** token, but to get all features, you must check the “**Authenticated”** token, then check the **private**, **interact,** and **stats** options.
 
 After that, put the token in `Constants.swift` in the **AppConstants** folder instead of `{Put your token here}`.
 
 ```swift
 struct Constants{
     struct Vimeo{
-        static let Vimeo_base_url = "https://api.vimeo.com/"
-        static let Vimeo_video_config_url = "https://player.vimeo.com/video/{id}/config"
+        static let base_url = "https://api.vimeo.com/"
+        static let video_config_url = "https://player.vimeo.com/video/{id}/config"
 
         /// You can create your own public api key from this link:https://developer.vimeo.com/
         static let public_token = "{Put your token here}"
