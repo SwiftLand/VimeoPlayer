@@ -1,12 +1,12 @@
 ![Logo](Vimeo%20player.png)
 
-# Vimeo Player
+# Vimeo Player (UIKit version)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 **VimeoPlayer** is a simple project for showing Vimeo videos that was developed with both **UIKit** and **SwiftUI**.
 
-The main branch was created with UIKit, but you can check the SwiftUI version in the SwiftUI branch.
+The main branch was created with UIKit, but you can check the [SwiftUI version](https://github.com/SwiftLand/vimeoplayer/tree/SwiftUI) in the SwiftUI branch.
 
 ## Screenshots
 
@@ -17,13 +17,7 @@ The main branch was created with UIKit, but you can check the SwiftUI version in
 | ![App Screenshot](Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-04-03%20at%2016.10.03.png) | ![App Screenshot](Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-04-03%20at%2016.10.43.png) |
 
 - [Features](#features)
-  - [UIKit](#uikit)
-  - [SwiftUI](#swiftui)
-  - [Common](#common)
 - [Installation](#installation)
-  - [UIKit version](#uikit-version)
-  - [SwiftUI version](#swiftui-version)
-  - [Setup token](#setup-token)
 - [Authors](#authors)
 - [Contributing](#contributing)
 - [License](#license)
@@ -32,6 +26,9 @@ The main branch was created with UIKit, but you can check the SwiftUI version in
 
 ### UIKit version
 
+- Search Vimeo videos
+- Show comments, likes, and play count.
+- Use the MVVM architect.
 - Support device rotation with the Xcode variation traits feature.
 - Use Storyboard for the UIKit version.
 - Create a custom player view with UIKit.
@@ -39,31 +36,11 @@ The main branch was created with UIKit, but you can check the SwiftUI version in
 - Use Rxflow for navigation.
 - Use Nuke for image loading.
 
-### SwifUI version
-
-- Support device rotation.
-- Use combine
-- Create a custom player view for SwiftUI.
-
-## Common
-
-- Search Vimeo videos
-- Show comments, likes, and play count.
-- Use the MVVM architect.
-
 ## Installation
-
-### UIKit
 
 To run the UIKit version you have to install [CocoaPods](https://cocoapods.org) first. than run `pod install` in project folder.
 
-### SwiftUI
 
-The swiftIU version is totally independent and dons't need to install any dependency.
-
-Just press run 😁
-
-### Setup Token
 
 To use this app, you have to create your public API key by following this link: [Vimeo developer](https://developer.vimeo.com/)
 
