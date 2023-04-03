@@ -1,7 +1,7 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'VimoPlayer' do
+target 'VimeoPlayer' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
@@ -20,18 +20,18 @@ target 'VimoPlayer' do
   end
 
   
-  # Pods for VimoPlayer
+  # Pods for VimeoPlayer
   common_pods_for_all_targets
 
   
-  target 'VimoPlayerTests' do
+  target 'VimeoPlayerTests' do
     inherit! :search_paths
     # Pods for testing
     common_pods_for_all_targets
     common_pods_for_test_targets
   end
 
-  target 'VimoPlayerUITests' do
+  target 'VimeoPlayerUITests' do
     # Pods for testing
     common_pods_for_all_targets
     common_pods_for_test_targets
