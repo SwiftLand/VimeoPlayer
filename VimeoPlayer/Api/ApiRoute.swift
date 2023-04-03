@@ -17,13 +17,13 @@ enum ApiRoute{
         switch route {
         case .videos(let params):
             
-            let rawURL = URL(string: Constants.Vimeo.Vimeo_base_url + "videos")!
+            let rawURL = URL(string: Constants.Vimeo.base_url + "videos")!
             var urlComps = URLComponents(url:rawURL, resolvingAgainstBaseURL: false)!
             urlComps.queryItems = params
             return urlComps.url!
             
         case .config(let id):
-            return URL(string:Constants.Vimeo.Vimeo_video_config_url.replacingOccurrences(of: "{id}", with: id))!
+            return URL(string:Constants.Vimeo.video_config_url.replacingOccurrences(of: "{id}", with: id))!
         }
     }
 }

@@ -21,16 +21,16 @@ The main branch was created with UIKit, but you can check the SwiftUI version in
   - [SwiftUI](#swiftui)
   - [Common](#common)
 - [Installation](#installation)
-  - [UIKit version](#cocopods)
-  - [SwiftUI version](#swift-package-manager)
-  - [Setup token](#swift-package-manager)
+  - [UIKit version](#uikit-version)
+  - [SwiftUI version](#swiftui-version)
+  - [Setup token](#setup-token)
 - [Authors](#authors)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Features
 
-###### UIKit
+### UIKit version
 
 - Support device rotation with the Xcode variation traits feature.
 - Use Storyboard for the UIKit version.
@@ -39,7 +39,7 @@ The main branch was created with UIKit, but you can check the SwiftUI version in
 - Use Rxflow for navigation.
 - Use Nuke for image loading.
 
-### SwifUI
+### SwifUI version
 
 - Support device rotation.
 - Use combine
@@ -63,8 +63,6 @@ The swiftIU version is totally independent and dons't need to install any depend
 
 Just press run 😁
 
-
-
 ### Setup Token
 
 To use this app, you have to create your public API key by following this link: [Vimeo developer](https://developer.vimeo.com/)
@@ -78,16 +76,12 @@ struct Constants{
     struct Vimeo{
         static let Vimeo_base_url = "https://api.vimeo.com/"
         static let Vimeo_video_config_url = "https://player.vimeo.com/video/{id}/config"
-        
+
         /// You can create your own public api key from this link:https://developer.vimeo.com/
         static let public_token = "{Put your token here}"
     }
 }
 ```
-
-
-
-
 
 ## Authors
 
@@ -100,3 +94,5 @@ Contributions are always welcome!
 For contributing, please download the project and create a new branch and add your codes.
 
 ## License
+
+**VimeoPlayer** is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
