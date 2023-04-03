@@ -35,7 +35,6 @@
 		046239D029D98EB10064F382 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399929D98EB00064F382 /* ApiRequest.swift */; };
 		046239D129D98EB10064F382 /* ApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399A29D98EB00064F382 /* ApiRoute.swift */; };
 		046239D229D98EB10064F382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399C29D98EB00064F382 /* AppDelegate.swift */; };
-		046239D329D98EB10064F382 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399D29D98EB00064F382 /* main.swift */; };
 		046239D429D98EB10064F382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462399E29D98EB00064F382 /* SceneDelegate.swift */; };
 		046239D529D98EB10064F382 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A029D98EB10064F382 /* SearchRequest.swift */; };
 		046239D629D98EB10064F382 /* VimoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239A129D98EB10064F382 /* VimoResponse.swift */; };
@@ -107,7 +106,6 @@
 		0462399929D98EB00064F382 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		0462399A29D98EB00064F382 /* ApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRoute.swift; sourceTree = "<group>"; };
 		0462399C29D98EB00064F382 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0462399D29D98EB00064F382 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		0462399E29D98EB00064F382 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		046239A029D98EB10064F382 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
 		046239A129D98EB10064F382 /* VimoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VimoResponse.swift; sourceTree = "<group>"; };
@@ -283,7 +281,6 @@
 			isa = PBXGroup;
 			children = (
 				0462399C29D98EB00064F382 /* AppDelegate.swift */,
-				0462399D29D98EB00064F382 /* main.swift */,
 				0462399E29D98EB00064F382 /* SceneDelegate.swift */,
 			);
 			path = Application;
@@ -667,7 +664,6 @@
 				046239E229D98EB10064F382 /* ImageResource.swift in Sources */,
 				046239D929D98EB10064F382 /* DetailViewModel.swift in Sources */,
 				046239D229D98EB10064F382 /* AppDelegate.swift in Sources */,
-				046239D329D98EB10064F382 /* main.swift in Sources */,
 				046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */,
 				046239CC29D98EB10064F382 /* AppStepper.swift in Sources */,
 				046239D829D98EB10064F382 /* DetailViewController.swift in Sources */,

@@ -12,25 +12,22 @@ import UIKit
 class ImageTextView:UIControl{
     
     
+    private(set) weak var stackView:UIStackView!
     private(set) weak var imageView:UIImageView!
     private(set) weak var textLabel:UILabel!
     private var imageSizeConstraint:NSLayoutConstraint!
-    private var paddingConstraint:NSLayoutConstraint!
-    
     
     @IBInspectable
     var imageSize:CGFloat = 20 {
         didSet{
-            imageSizeConstraint.constant = imageSize
-            layoutIfNeeded()
+            updateImageSize(imageSize)
         }
     }
     
     @IBInspectable
     var padding:CGFloat = 4 {
         didSet{
-            paddingConstraint.constant = padding
-            layoutIfNeeded()
+            updatePadding( padding)
         }
     }
     
@@ -49,7 +46,7 @@ class ImageTextView:UIControl{
             layoutIfNeeded()
         }
     }
-
+    
     
     public override init(frame: CGRect) {
         super.init(frame:frame)
@@ -64,7 +61,7 @@ class ImageTextView:UIControl{
     }
     
     override func prepareForInterfaceBuilder() {
-          super.prepareForInterfaceBuilder()
+        super.prepareForInterfaceBuilder()
         setupForInterfaceBuilder()
     }
     
@@ -81,7 +78,7 @@ class ImageTextView:UIControl{
         imageView.image = ImageResource.image(for: .error_icon)
     }
     
-   private func setupView(){
+    private func setupView(){
         backgroundColor = .clear
         
         let textLabel =  UILabel()
@@ -95,29 +92,41 @@ class ImageTextView:UIControl{
         imageView.contentMode = .scaleAspectFit
         self.imageView = imageView
         
-        addSubview(textLabel)
-        addSubview(imageView)
+        
+        let stackView = UIStackView()
+        self.stackView = stackView
+        stackView.axis = .vertical
+        stackView.alignment = .center
+        stackView.distribution = .fill
+        stackView.spacing = padding
+        stackView.addArrangedSubview(imageView)
+        stackView.addArrangedSubview(textLabel)
+        
+        
+        addSubview(stackView)
     }
     
-   private func setupConstraint(){
-        imageSizeConstraint = imageView.heightAnchor.constraint(equalToConstant:imageSize)
-        paddingConstraint = textLabel.topAnchor.constraint(equalTo:imageView.bottomAnchor,constant:padding)
-       
-        textLabel.translatesAutoresizingMaskIntoConstraints = false
+    private func setupConstraint(){
+        stackView.translatesAutoresizingMaskIntoConstraints = false
         imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageSizeConstraint = imageView.heightAnchor.constraint(equalToConstant:imageSize)
         
         NSLayoutConstraint.activate([
-            imageView.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+            stackView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            stackView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            stackView.bottomAnchor.constraint(equalTo: bottomAnchor),
+            stackView.topAnchor.constraint(equalTo: topAnchor),
             imageSizeConstraint,
-            imageView.heightAnchor.constraint(equalTo: imageView.widthAnchor),
-            imageView.topAnchor.constraint(equalTo: topAnchor,constant: 0),
-            
-            textLabel.leadingAnchor.constraint(equalTo: leadingAnchor,constant: 0),
-            paddingConstraint,
-            textLabel.trailingAnchor.constraint(equalTo: trailingAnchor,constant: 0),
-            textLabel.bottomAnchor.constraint(equalTo: bottomAnchor,constant: 0),
-         ])
+            imageView.heightAnchor.constraint(equalTo: imageView.widthAnchor)
+        ])
     }
     
-   
+    private func updateImageSize (_ size:CGFloat){
+        imageSizeConstraint.constant = imageSize
+        layoutIfNeeded()
+    }
+    private func updatePadding(_ padding:CGFloat){
+        stackView.spacing = padding
+        layoutIfNeeded()
+    }
 }
