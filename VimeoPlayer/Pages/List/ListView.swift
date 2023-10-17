@@ -38,7 +38,7 @@ struct ListView: View {
                 
             case .error(let error):
                 VStack{
-                    Image(systemName:ImageResource.getName(for: .error_icon))
+                    Image(systemName:ImageResources.getName(for: .error_icon))
                         .resizable()
                         .foregroundColor(.red)
                         .frame(width:40,height: 40)
@@ -47,7 +47,7 @@ struct ListView: View {
                 
             default:
                 VStack(spacing:16){
-                    Image(uiImage: ImageResource.getImage(for: .magnifying_glass)).resizable()
+                    Image(uiImage: ImageResources.getImage(for: .magnifying_glass)).resizable()
                         .frame(width:40,height: 40)
                     Text(StringResource.get(.search_something))
                 }

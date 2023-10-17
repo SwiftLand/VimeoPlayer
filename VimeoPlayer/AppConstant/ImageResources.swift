@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-enum ImageResource:String{
+enum ImageResources:String{
     
     case error_icon = "exclamationmark.circle.fill"
     case magnifying_glass = "magnifyingglass"
@@ -23,11 +23,11 @@ enum ImageResource:String{
     case comment_icon = "bubble.left.and.bubble.right.fill"
     case like_icon = "heart.fill"
     
-    static func getName (for image:ImageResource)->String{
+    static func getName (for image:ImageResources)->String{
         return image.rawValue
     }
     
-    static func getImage (for image:ImageResource,color:UIColor = .darkGray)->UIImage{
+    static func getImage (for image:ImageResources,color:UIColor = .darkGray)->UIImage{
         return  UIImage(systemName: image.rawValue)!.withTintColor(color, renderingMode: .alwaysOriginal)
     }
 }

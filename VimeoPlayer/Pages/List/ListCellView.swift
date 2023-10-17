@@ -62,7 +62,7 @@ struct ListCellView: View {
                                         }
                                     
                                 }else{
-                                    Image(uiImage: ImageResource.getImage(for: .person))
+                                    Image(uiImage: ImageResources.getImage(for: .person))
                                         .resizable()
                                         .clipShape(Circle())
                                         .overlay{
@@ -96,7 +96,7 @@ private struct ListCellImageView: View {
                 ZStack{
                     Color.gray
                         .brightness(0.4)
-                    Image(systemName: ImageResource.getName(for: .error_icon))
+                    Image(systemName: ImageResources.getName(for: .error_icon))
                         .resizable()
                         .foregroundColor(Color.red).frame(width:25,height: 25)
                 }

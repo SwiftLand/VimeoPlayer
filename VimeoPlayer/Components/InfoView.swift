@@ -12,13 +12,13 @@ struct InfoView: View {
     var body: some View {
         HStack{
             Spacer()
-            StatusView(icon: ImageResource.getName(for: .play_icon),
+            StatusView(icon: ImageResources.getName(for: .play_icon),
                        count:  data.stats?.plays ?? 0)
             Spacer()
-            StatusView(icon: ImageResource.getName(for: .comment_icon),
+            StatusView(icon: ImageResources.getName(for: .comment_icon),
                        count: data.metadata?.connections?.comments?.total ?? 0)
             Spacer()
-            StatusView(icon: ImageResource.getName(for: .like_icon),
+            StatusView(icon: ImageResources.getName(for: .like_icon),
                        count:data.metadata?.connections?.likes?.total ?? 0)
             Spacer()
         }

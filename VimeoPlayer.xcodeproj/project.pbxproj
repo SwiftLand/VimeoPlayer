@@ -35,7 +35,7 @@
 		042553F529DB80A200F26A07 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C329DB80A100F26A07 /* ListViewModel.swift */; };
 		042553F629DB80A200F26A07 /* ListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C429DB80A100F26A07 /* ListCellView.swift */; };
 		042553F729DB80A200F26A07 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C629DB80A100F26A07 /* Constants.swift */; };
-		042553F829DB80A200F26A07 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C729DB80A100F26A07 /* ImageResource.swift */; };
+		042553F829DB80A200F26A07 /* ImageResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C729DB80A100F26A07 /* ImageResources.swift */; };
 		042553F929DB80A200F26A07 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553C829DB80A100F26A07 /* StringResource.swift */; };
 		042553FA29DB80A200F26A07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553CA29DB80A100F26A07 /* AppDelegate.swift */; };
 		042553FB29DB80A200F26A07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042553CB29DB80A100F26A07 /* SceneDelegate.swift */; };
@@ -103,7 +103,7 @@
 		042553C329DB80A100F26A07 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		042553C429DB80A100F26A07 /* ListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListCellView.swift; sourceTree = "<group>"; };
 		042553C629DB80A100F26A07 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		042553C729DB80A100F26A07 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
+		042553C729DB80A100F26A07 /* ImageResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResources.swift; sourceTree = "<group>"; };
 		042553C829DB80A100F26A07 /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
 		042553CA29DB80A100F26A07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		042553CB29DB80A100F26A07 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				042553C629DB80A100F26A07 /* Constants.swift */,
-				042553C729DB80A100F26A07 /* ImageResource.swift */,
+				042553C729DB80A100F26A07 /* ImageResources.swift */,
 				042553C829DB80A100F26A07 /* StringResource.swift */,
 			);
 			path = AppConstant;
@@ -521,7 +521,7 @@
 				042553DD29DB80A200F26A07 /* DoubleEx.swift in Sources */,
 				042553E429DB80A200F26A07 /* UIInterfaceOrientationMask.swift in Sources */,
 				042553EB29DB80A200F26A07 /* FlowView.swift in Sources */,
-				042553F829DB80A200F26A07 /* ImageResource.swift in Sources */,
+				042553F829DB80A200F26A07 /* ImageResources.swift in Sources */,
 				042553E229DB80A200F26A07 /* HTTPURLResponseEx.swift in Sources */,
 				0425540329DB80A200F26A07 /* PlayerView.swift in Sources */,
 				042553EC29DB80A200F26A07 /* Screen.swift in Sources */,

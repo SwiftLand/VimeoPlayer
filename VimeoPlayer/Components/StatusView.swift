@@ -21,6 +21,6 @@ struct StatusView: View {
 
 struct StatusView_Previews: PreviewProvider {
     static var previews: some View {
-        StatusView(icon: ImageResource.getName(for: .play_icon), count: 10)
+        StatusView(icon: ImageResources.getName(for: .play_icon), count: 10)
     }
 }

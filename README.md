@@ -6,7 +6,7 @@
 
 **VimeoPlayer** is a simple project for showing Vimeo videos that was developed with both **UIKit** and **SwiftUI**.
 
-The main branch was created with UIKit, but you can check the SwiftUI version in the SwiftUI branch.
+This branch was developed using SwiftUI. check [UIKit version](https://github.com/SwiftLand/VimeoPlayer) in main branch.
 
 ## Screenshots
 

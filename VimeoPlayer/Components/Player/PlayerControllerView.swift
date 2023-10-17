@@ -18,7 +18,7 @@ struct PlayerControllerView1: View {
                 playerVM.player.togglePlay()
             } label: {
                 Image(systemName:
-                        ImageResource.getName(for: playerVM.isPlay ? .pause_icon :.play_icon))
+                        ImageResources.getName(for: playerVM.isPlay ? .pause_icon :.play_icon))
                     .foregroundColor(Color(UIColor.darkGray))
             }
             PlayerSliderView(value:$playerVM.progressValue,
@@ -31,14 +31,14 @@ struct PlayerControllerView1: View {
                 playerVM.player.toggleMute()
             } label: {
                 Image(systemName:
-                        ImageResource.getName(for: playerVM.player.isMuted ? .mute_icon : .unMute_icon))
+                        ImageResources.getName(for: playerVM.player.isMuted ? .mute_icon : .unMute_icon))
                     .foregroundColor(Color(UIColor.darkGray))
             }
             Button {
                 playerVM.isExpanded.toggle()
             } label: {
                 Image(systemName:
-                        ImageResource.getName(for:playerVM.isExpanded ? .collapse_icon : .expand_icon))
+                        ImageResources.getName(for:playerVM.isExpanded ? .collapse_icon : .expand_icon))
                     .foregroundColor(Color(UIColor.darkGray))
             }
         }.padding(.all,8).background{
