@@ -49,7 +49,7 @@
 		046239DF29D98EB10064F382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046239B129D98EB10064F382 /* Main.storyboard */; };
 		046239E029D98EB10064F382 /* ImageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B329D98EB10064F382 /* ImageTextView.swift */; };
 		046239E129D98EB10064F382 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B529D98EB10064F382 /* Constants.swift */; };
-		046239E229D98EB10064F382 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B629D98EB10064F382 /* ImageResource.swift */; };
+		046239E229D98EB10064F382 /* ImageResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B629D98EB10064F382 /* ImageResources.swift */; };
 		046239E329D98EB10064F382 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046239B729D98EB10064F382 /* StringResource.swift */; };
 		1B83CB6B0B64A06502D5D86F /* Pods_VimeoPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84EA4E649BE792ACE6844D1 /* Pods_VimeoPlayerTests.framework */; };
 		2389198A9E1709CCF5272630 /* Pods_VimeoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E939538B979159DAA1E6FE /* Pods_VimeoPlayer.framework */; };
@@ -120,7 +120,7 @@
 		046239B229D98EB10064F382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		046239B329D98EB10064F382 /* ImageTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTextView.swift; sourceTree = "<group>"; };
 		046239B529D98EB10064F382 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		046239B629D98EB10064F382 /* ImageResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResource.swift; sourceTree = "<group>"; };
+		046239B629D98EB10064F382 /* ImageResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResources.swift; sourceTree = "<group>"; };
 		046239B729D98EB10064F382 /* StringResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringResource.swift; sourceTree = "<group>"; };
 		06E939538B979159DAA1E6FE /* Pods_VimeoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VimeoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		304D6D07504DA27820671B75 /* Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig"; path = "Target Support Files/Pods-VimeoPlayer-VimeoPlayerUITests/Pods-VimeoPlayer-VimeoPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -355,7 +355,7 @@
 			isa = PBXGroup;
 			children = (
 				046239B529D98EB10064F382 /* Constants.swift */,
-				046239B629D98EB10064F382 /* ImageResource.swift */,
+				046239B629D98EB10064F382 /* ImageResources.swift */,
 				046239B729D98EB10064F382 /* StringResource.swift */,
 			);
 			path = AppConstant;
@@ -661,7 +661,7 @@
 				046239D029D98EB10064F382 /* ApiRequest.swift in Sources */,
 				046239BA29D98EB10064F382 /* LoadStatus.swift in Sources */,
 				046239DB29D98EB10064F382 /* ListViewModel.swift in Sources */,
-				046239E229D98EB10064F382 /* ImageResource.swift in Sources */,
+				046239E229D98EB10064F382 /* ImageResources.swift in Sources */,
 				046239D929D98EB10064F382 /* DetailViewModel.swift in Sources */,
 				046239D229D98EB10064F382 /* AppDelegate.swift in Sources */,
 				046239B829D98EB10064F382 /* ImageLoaderProxy.swift in Sources */,

@@ -50,13 +50,13 @@ class DetailViewController:UIViewController{
     func bind(){
         titleLabel.text = viewModel.data.name
         
-        commentView.imageView.image = ImageResource.image(for: .comment_icon,color: .darkGray)
+        commentView.imageView.image = ImageResources.image(for: .comment_icon,color: .darkGray)
         commentView.text = Formatter.formatNumber(viewModel.data.metadata?.connections?.comments?.total ?? 0)
         
-        likeView.imageView.image = ImageResource.image(for: .like_icon,color: .darkGray)
+        likeView.imageView.image = ImageResources.image(for: .like_icon,color: .darkGray)
         likeView.text = Formatter.formatNumber(viewModel.data.metadata?.connections?.likes?.total ?? 0)
         
-        playCountView.imageView.image = ImageResource.image(for: .play_round_icon,color: .darkGray)
+        playCountView.imageView.image = ImageResources.image(for: .play_round_icon,color: .darkGray)
         playCountView.text = Formatter.formatNumber(viewModel.data.stats?.plays ?? 0)
         
         if let size = viewModel.data.uploader?.pictures?.getSize(for: uploaderImageView.frame.size),

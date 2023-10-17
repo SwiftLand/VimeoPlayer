@@ -125,18 +125,18 @@ class PlayerControllerView:UIView{
         self.slider = slider
         
         let playBtn = UIButton()
-        playBtn.setImage(ImageResource.image(for: .play_round_icon), for: .normal)
+        playBtn.setImage(ImageResources.image(for: .play_round_icon), for: .normal)
         playBtn.contentMode = .scaleAspectFit
         containerView.addSubview(playBtn)
         self.playBtn = playBtn
         
         let expandBtn = UIButton()
-        expandBtn.setImage(ImageResource.image(for: .expand_icon), for: .normal)
+        expandBtn.setImage(ImageResources.image(for: .expand_icon), for: .normal)
         containerView.addSubview(expandBtn)
         self.expandBtn = expandBtn
         
         let muteBtn = UIButton()
-        muteBtn.setImage(ImageResource.image(for: .unMute_icon), for: .normal)
+        muteBtn.setImage(ImageResources.image(for: .unMute_icon), for: .normal)
         containerView.addSubview(muteBtn)
         self.muteBtn = muteBtn
         
@@ -235,24 +235,24 @@ class PlayerControllerView:UIView{
     
     private func updateMuteStateChanged(_ isMuted:Bool){
         if isMuted {
-            muteBtn.setImage(ImageResource.image(for: .mute_icon), for: .normal)
+            muteBtn.setImage(ImageResources.image(for: .mute_icon), for: .normal)
         }else{
-            muteBtn.setImage(ImageResource.image(for: .unMute_icon), for: .normal)
+            muteBtn.setImage(ImageResources.image(for: .unMute_icon), for: .normal)
         }
     }
     
     private func updatePlayStatus(_ status:AVPlayer.TimeControlStatus){
         switch status {
         case .playing:
-            playBtn.setImage(ImageResource.image(for: .pause_icon), for: .normal)
+            playBtn.setImage(ImageResources.image(for: .pause_icon), for: .normal)
         case .paused:
-            playBtn.setImage(ImageResource.image(for: .play_round_icon), for: .normal)
+            playBtn.setImage(ImageResources.image(for: .play_round_icon), for: .normal)
         default:break
         }
     }
     
     private func updateExpandBtn(_ isExpanded:Bool){
-        expandBtn.setImage(ImageResource.image(for:isExpanded ?.collapse_icon : .expand_icon), for: .normal)
+        expandBtn.setImage(ImageResources.image(for:isExpanded ?.collapse_icon : .expand_icon), for: .normal)
     }
     
     private func requireChangeSize(_ isExpanded:Bool){

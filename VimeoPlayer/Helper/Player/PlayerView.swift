@@ -86,7 +86,7 @@ class PlayerView: UIControl {
     private func createSupViews(){
         
         let playImage = UIImageView()
-        playImage.image = ImageResource.image(for: .play_icon,color: .gray)
+        playImage.image = ImageResources.image(for: .play_icon,color: .gray)
         self.addSubview(playImage)
         self.playImage = playImage
         
@@ -121,12 +121,12 @@ class PlayerView: UIControl {
     private func updatePlayStatus(_ status:AVPlayer.TimeControlStatus){
         
         if status == .playing && player.isPlaying {
-            playImage.image = ImageResource.image(for: .play_round_icon,color: .gray)
+            playImage.image = ImageResources.image(for: .play_round_icon,color: .gray)
             playImage.fadeOut(duration: 3)
         }
         
         if status == .paused && !player.isPlaying{
-            playImage.image = ImageResource.image(for: .pause_icon,color: .gray)
+            playImage.image = ImageResources.image(for: .pause_icon,color: .gray)
             playImage.fadeOut(duration: 3)
         }
     }

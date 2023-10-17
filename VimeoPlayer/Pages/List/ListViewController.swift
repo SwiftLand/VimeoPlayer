@@ -138,7 +138,7 @@ extension ListViewController{
 extension ListViewController{
     
     private func showInitialView(){
-        showImageTextView(message:StringResource.get(.init_massage),image:ImageResource.image(for: .magnifying_glass))
+        showImageTextView(message:StringResource.get(.init_massage),image:ImageResources.image(for: .magnifying_glass))
     }
     
     private func showImageTextView(message:String,image:UIImage?){
@@ -147,7 +147,7 @@ extension ListViewController{
     }
     
     private func showImageTextView(error:Error){
-        let image = ImageResource.image(for: .error_icon,color: .red)
+        let image = ImageResources.image(for: .error_icon,color: .red)
         var message = StringResource.getMessage(for:error)
         message.append("\n")
         message.append(StringResource.get(.press_to_retry))

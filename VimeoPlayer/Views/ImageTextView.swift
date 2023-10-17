@@ -75,7 +75,7 @@ class ImageTextView:UIControl{
         textLabel.text = text
         textLabel.font = .boldSystemFont(ofSize: fontSize)
         imageSizeConstraint.constant = imageSize
-        imageView.image = ImageResource.image(for: .error_icon)
+        imageView.image = ImageResources.image(for: .error_icon)
     }
     
     private func setupView(){
